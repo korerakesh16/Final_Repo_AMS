@@ -10,7 +10,15 @@ export const useAssetManager = () => {
   return context;
 };
 
-const API_URL = "http://localhost:8000";
+const API_URL = (import.meta.env.VITE_API_URL || "http://localhost:8000").replace(/\/$/, "");
+
+if (import.meta.env.PROD && !import.meta.env.VITE_API_URL) {
+  console.warn(
+    "[QITS Config Warning]: VITE_API_URL environment variable is not defined in Vercel. " +
+    "Requests are defaulting to http://localhost:8000 which causes 'Failed to fetch' errors in production. " +
+    "Please add VITE_API_URL=https://<your-render-backend>.onrender.com in Vercel Environment Variables and trigger a fresh deployment."
+  );
+}
 
 export const AssetProvider = ({ children }) => {
   const [employees, setEmployees] = useState([]);
