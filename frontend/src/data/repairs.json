@@ -1,0 +1,302 @@
+[
+  {
+    "id": "REP00028",
+    "assetId": "LT0001",
+    "reportedBy": "EMP001",
+    "issue": "Battery not charging",
+    "description": "Laptop battery is not charging even when the charger is connected.",
+    "requestDate": "10 Jul 2026 10:30 AM",
+    "priority": "Medium",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "13 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "10 Jul 2026 11:15 AM",
+        "message": "Repair request created by Rakesh Reddy"
+      },
+      {
+        "date": "10 Jul 2026 02:20 PM",
+        "message": "Assigned to IT Support Team by Admin"
+      }
+    ]
+  },
+  {
+    "id": "REP00027",
+    "assetId": "MS0001",
+    "reportedBy": "EMP002",
+    "issue": "Scroll wheel not working",
+    "description": "The middle scroll wheel is unresponsive when scrolling down.",
+    "requestDate": "09 Jul 2026 09:30 AM",
+    "priority": "Low",
+    "assignedTo": "Hardware Support Team",
+    "estimatedCompletion": "12 Jul 2026",
+    "status": "Awaiting Parts",
+    "updates": [
+      {
+        "date": "09 Jul 2026 09:30 AM",
+        "message": "Repair request created by Rahul Sharma"
+      },
+      {
+        "date": "09 Jul 2026 11:00 AM",
+        "message": "Logged issue with vendor; scroll replacement wheels on order."
+      }
+    ]
+  },
+  {
+    "id": "REP00026",
+    "assetId": "MN0001",
+    "reportedBy": "EMP003",
+    "issue": "Flickering screen",
+    "description": "Display flashes on and off intermittently when connected to HDMI.",
+    "requestDate": "08 Jul 2026 02:00 PM",
+    "priority": "High",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "10 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "08 Jul 2026 02:00 PM",
+        "message": "Repair request created by Priya Singh"
+      }
+    ]
+  },
+  {
+    "id": "REP00025",
+    "assetId": "KB0001",
+    "reportedBy": "EMP004",
+    "issue": "Some keys not working",
+    "description": "Spacebar and Enter key do not register strokes.",
+    "requestDate": "07 Jul 2026 10:00 AM",
+    "priority": "Low",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "08 Jul 2026",
+    "status": "Completed",
+    "updates": [
+      {
+        "date": "07 Jul 2026 10:00 AM",
+        "message": "Repair request created by Amit Verma"
+      },
+      {
+        "date": "08 Jul 2026 04:30 PM",
+        "message": "Keyboard cleaned and contacts repaired. Marked as Available."
+      }
+    ]
+  },
+  {
+    "id": "REP00024",
+    "assetId": "HD0001",
+    "reportedBy": "EMP005",
+    "issue": "No sound in right ear",
+    "description": "No audio feedback from right speaker driver.",
+    "requestDate": "06 Jul 2026 01:15 PM",
+    "priority": "Medium",
+    "assignedTo": "Hardware Support Team",
+    "estimatedCompletion": "08 Jul 2026",
+    "status": "Completed",
+    "updates": [
+      {
+        "date": "06 Jul 2026 01:15 PM",
+        "message": "Repair request created by Neha Patel"
+      }
+    ]
+  },
+  {
+    "id": "REP00023",
+    "assetId": "PR0001",
+    "reportedBy": "EMP006",
+    "issue": "Paper jam",
+    "description": "Printer jams feed tray every time printing is initiated.",
+    "requestDate": "05 Jul 2026 11:00 AM",
+    "priority": "High",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "06 Jul 2026",
+    "status": "Cancelled",
+    "updates": [
+      {
+        "date": "05 Jul 2026 11:00 AM",
+        "message": "Repair request created by Vikram Reddy"
+      },
+      {
+        "date": "06 Jul 2026 09:30 AM",
+        "message": "Printer replaced by newer model. Repair cancelled."
+      }
+    ]
+  },
+  {
+    "id": "REP00029",
+    "assetId": "QITS-LAP-209",
+    "reportedBy": "EMP1105",
+    "issue": "Overheating under load",
+    "description": "Laptop fans spin at max speed constantly. Overheats and shuts down.",
+    "requestDate": "24 Jul 2026 10:00 AM",
+    "priority": "Medium",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "29 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "24 Jul 2026 10:00 AM",
+        "message": "Repair ticket generated automatically"
+      },
+      {
+        "date": "25 Jul 2026 11:30 AM",
+        "message": "Assigned to IT Support Team"
+      }
+    ]
+  },
+  {
+    "id": "REP00030",
+    "assetId": "DSV-LAP-218",
+    "reportedBy": "EMP1289",
+    "issue": "Keyboard keys sticky",
+    "description": "Spacebar and enter keys do not respond smoothly. Needs cleaning or replacement.",
+    "requestDate": "24 Jul 2026 10:00 AM",
+    "priority": "Medium",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "29 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "24 Jul 2026 10:00 AM",
+        "message": "Repair ticket generated automatically"
+      },
+      {
+        "date": "25 Jul 2026 11:30 AM",
+        "message": "Assigned to IT Support Team"
+      }
+    ]
+  },
+  {
+    "id": "REP00031",
+    "assetId": "QITS-HDST-248",
+    "reportedBy": "EMP1142",
+    "issue": "Microphone sound cutouts",
+    "description": "Audio is fine but the microphone cuts out randomly during MS Teams calls.",
+    "requestDate": "24 Jul 2026 10:00 AM",
+    "priority": "Medium",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "29 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "24 Jul 2026 10:00 AM",
+        "message": "Repair ticket generated automatically"
+      },
+      {
+        "date": "25 Jul 2026 11:30 AM",
+        "message": "Assigned to IT Support Team"
+      }
+    ]
+  },
+  {
+    "id": "REP00032",
+    "assetId": "DSV-LAP-263",
+    "reportedBy": "EMP1292",
+    "issue": "Battery draining fast",
+    "description": "Battery backup is less than 30 minutes. Needs battery replacement.",
+    "requestDate": "24 Jul 2026 10:00 AM",
+    "priority": "Medium",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "29 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "24 Jul 2026 10:00 AM",
+        "message": "Repair ticket generated automatically"
+      },
+      {
+        "date": "25 Jul 2026 11:30 AM",
+        "message": "Assigned to IT Support Team"
+      }
+    ]
+  },
+  {
+    "id": "REP00033",
+    "assetId": "QITS-MOU-258",
+    "reportedBy": "EMP1389",
+    "issue": "Left click double clicks",
+    "description": "Single left-click registers as double-click. Physical switch wear.",
+    "requestDate": "24 Jul 2026 10:00 AM",
+    "priority": "Medium",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "29 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "24 Jul 2026 10:00 AM",
+        "message": "Repair ticket generated automatically"
+      },
+      {
+        "date": "25 Jul 2026 11:30 AM",
+        "message": "Assigned to IT Support Team"
+      }
+    ]
+  },
+  {
+    "id": "REP00034",
+    "assetId": "DSV-LAP-316",
+    "reportedBy": "EMP1126",
+    "issue": "Screen flickering",
+    "description": "Subtle screen flicker at the bottom edge of the display.",
+    "requestDate": "24 Jul 2026 10:00 AM",
+    "priority": "Medium",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "29 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "24 Jul 2026 10:00 AM",
+        "message": "Repair ticket generated automatically"
+      },
+      {
+        "date": "25 Jul 2026 11:30 AM",
+        "message": "Assigned to IT Support Team"
+      }
+    ]
+  },
+  {
+    "id": "REP00035",
+    "assetId": "QITS-LAP-336",
+    "reportedBy": "EMP1327",
+    "issue": "USB ports unresponsive",
+    "description": "Left side USB-A ports do not register any connected devices.",
+    "requestDate": "24 Jul 2026 10:00 AM",
+    "priority": "Medium",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "29 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "24 Jul 2026 10:00 AM",
+        "message": "Repair ticket generated automatically"
+      },
+      {
+        "date": "25 Jul 2026 11:30 AM",
+        "message": "Assigned to IT Support Team"
+      }
+    ]
+  },
+  {
+    "id": "REP00036",
+    "assetId": "DSV-LAP-351",
+    "reportedBy": "EMP1076",
+    "issue": "OS boot loop",
+    "description": "Fails to load Windows. Stuck in auto-repair loop after update.",
+    "requestDate": "24 Jul 2026 10:00 AM",
+    "priority": "Medium",
+    "assignedTo": "IT Support Team",
+    "estimatedCompletion": "29 Jul 2026",
+    "status": "In Progress",
+    "updates": [
+      {
+        "date": "24 Jul 2026 10:00 AM",
+        "message": "Repair ticket generated automatically"
+      },
+      {
+        "date": "25 Jul 2026 11:30 AM",
+        "message": "Assigned to IT Support Team"
+      }
+    ]
+  }
+]

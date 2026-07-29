@@ -1,0 +1,72 @@
+[
+  {
+    "id": "LIC001",
+    "name": "Microsoft Office 365 Enterprise E5",
+    "vendor": "Microsoft",
+    "licenseKey": "MS365-E5-99X2B-88F4A-77L9P",
+    "seats": 150,
+    "cost": "$4,500/year",
+    "startDate": "15 Jan 2026",
+    "endDate": "15 Jan 2027",
+    "adminEmail": "rakesh.reddy@company.com",
+    "alertDaysBefore": 30,
+    "status": "Active",
+    "description": "Standard office productivity tools suite for all office employees."
+  },
+  {
+    "id": "LIC002",
+    "name": "Adobe Creative Cloud All Apps",
+    "vendor": "Adobe",
+    "licenseKey": "ADOBE-CC-CREATIVE-88X23-99Y4L",
+    "seats": 15,
+    "cost": "$1,250/month",
+    "startDate": "10 Jul 2026",
+    "endDate": "10 Aug 2026",
+    "adminEmail": "rakesh.reddy@company.com",
+    "alertDaysBefore": 14,
+    "status": "Expiring Soon",
+    "description": "Adobe design tools for graphic designers and UI/UX team."
+  },
+  {
+    "id": "LIC003",
+    "name": "Slack Business+ Pro",
+    "vendor": "Slack Technologies",
+    "licenseKey": "SLACK-PRO-BIZ-888X-999Y-ZZZZ",
+    "seats": 120,
+    "cost": "$960/month",
+    "startDate": "20 May 2025",
+    "endDate": "20 May 2026",
+    "adminEmail": "rakesh.reddy@company.com",
+    "alertDaysBefore": 7,
+    "status": "Expired",
+    "description": "Official company workspace communication subscription."
+  },
+  {
+    "id": "LIC004",
+    "name": "AWS Cloud Services",
+    "vendor": "Amazon Web Services",
+    "licenseKey": "AWS-IT-DEVT-SUB-823912",
+    "seats": 50,
+    "cost": "$3,200/month",
+    "startDate": "01 Jun 2026",
+    "endDate": "01 Jun 2027",
+    "adminEmail": "rakesh.reddy@company.com",
+    "alertDaysBefore": 30,
+    "status": "Active",
+    "description": "Development, staging and production servers hosting."
+  },
+  {
+    "id": "LIC005",
+    "name": "Jira Software Premium",
+    "vendor": "Atlassian",
+    "licenseKey": "JIRA-PREM-ATL-992348",
+    "seats": 80,
+    "cost": "$1,400/year",
+    "startDate": "05 Aug 2025",
+    "endDate": "05 Aug 2026",
+    "adminEmail": "rakesh.reddy@company.com",
+    "alertDaysBefore": 15,
+    "status": "Expiring Soon",
+    "description": "Project management and ticket tracking software licenses."
+  }
+]

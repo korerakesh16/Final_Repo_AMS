@@ -1,0 +1,5050 @@
+[
+  {
+    "id": "ACT001",
+    "user": "Rakesh Reddy",
+    "activity": "Login",
+    "details": "User logged in successfully",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jul 2026, 10:30 AM"
+  },
+  {
+    "id": "ACT002",
+    "user": "Rakesh Reddy",
+    "activity": "Update Profile",
+    "details": "Profile information updated",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jul 2026, 10:25 AM"
+  },
+  {
+    "id": "ACT003",
+    "user": "Rakesh Reddy",
+    "activity": "Change Password",
+    "details": "Password changed successfully",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jul 2026, 10:20 AM"
+  },
+  {
+    "id": "ACT004",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Dell Laptop (LT0001) to Rakesh Reddy",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jul 2026, 09:15 AM"
+  },
+  {
+    "id": "ACT005",
+    "user": "Rakesh Reddy",
+    "activity": "Create Repair",
+    "details": "Created repair request REP00028 for Dell Latitude 5440 (LT0001)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jul 2026, 08:30 AM"
+  },
+  {
+    "id": "ACT006",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Logitech Mouse (MS0001) from Rahul Sharma",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jul 2026, 04:00 PM"
+  },
+  {
+    "id": "ACT007",
+    "user": "Rakesh Reddy",
+    "activity": "Add Employee",
+    "details": "Added new employee Sneha Iyer (EMP007)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jul 2026, 11:45 AM"
+  },
+  {
+    "id": "ACT008",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Dell-Pro (QITS-LAP-203) to Abisheek Kumar (EMP1105)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT009",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Dell-Pro (QITS-LAP-203) from Abisheek Kumar",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "07 Mar 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT010",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-204) to Sai Divya Achalla (EMP1191)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT011",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/117 (DSV-LAP-205) to A M Arpita (EMP1221)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT012",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/120 (DSV-LAP-206) to Aashish D (EMP1255)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT013",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-207) to Abhishek Goud Akkapalli (EMP1175)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT014",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/156 (DSV-LAP-208) to Abhishek Goud Akkapalli (EMP1175)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT015",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Dell (QITS-LAP-209) to Abhishek Kumar (EMP1105)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT016",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-210) to Abisheek Kumar (EMP1105)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT017",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-211) to Abisheek Kumar (EMP1105)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT018",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 85 (DSV-LAP-212) to Aditya Talluri (EMP9025)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Feb 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT019",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Desktop Desktop (QITS-DSKT-213) to pranay (EMP_RET_213)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT020",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Desktop Desktop (QITS-DSKT-213) from pranay",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT021",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Desktop Desktop (QITS-DSKT-213) to Ajay kumar Akim (EMP5046)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT022",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-214) to Ajaykumae Akim (EMP5046)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Aug 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT023",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/138 (DSV-LAP-215) to Ajitha D N (EMP1238)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 Apr 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT024",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/146 (DSV-LAP-216) to Akash Nathu Datkhile (EMP1291)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "07 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT025",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-217) to Akhil N (EMP1289)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT026",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (DSV-LAP-218) to Akhil N (EMP1289)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT027",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-219) to Akhilesh Devaki (EMP1199)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT028",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/86 (DSV-LAP-220) to Akhilesh Devaki (EMP1199)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Dec 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT029",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/89 (DSV-LAP-221) to Akshat Tiwari (EMP1228)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT030",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-222) to Akshita Basani (EMP5037)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT031",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Desktop Desktop set (27 inch Monitor)-4 (QITS-DSKT-223) to Akshita Basani (EMP5037)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT032",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-224) to Akshitha Basani (EMP5037)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT033",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-225) to Altaf Hussain Mohammad (EMP1027)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT034",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV LAPTOP 29 (DSV-LAP-226) to Altaf Hussain Mohammad (EMP1027)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Oct 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT035",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-227) to Altaf Hussain Mohammad (EMP1027)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT036",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-228) to Amar Nath Nuthalapati (EMP1003)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT037",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Thinkpad (QITS-LAP-228) from Amar Nath Nuthalapati",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jul 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT038",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-229) to Amar Nath Nuthalapati (EMP1003)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT039",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-230) to Anamala Shiva Krishna (EMP1340)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT040",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken Pamtoken (DSV-TOK-231) to Anamala Shiva Krishna (EMP1340)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "07 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT041",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-232) to Anamala Shiva Krishna (EMP1340)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT042",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 47 (DSV-LAP-233) to Anand Singireddy (EMP1052)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jul 2022, 09:30 AM"
+  },
+  {
+    "id": "ACT043",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-234) to Ankita Priyadarshini Mund (EMP1388)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT044",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-235) to Ankita Priyadarshini Mund (EMP1388)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT045",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-236) to Ankita Priyadarshini Mund (EMP1388)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT046",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken Pamtoken (DSV-TOK-237) to Ankita Priyadarshini Mund (EMP1388)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT047",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/98 (DSV-LAP-238) to Ankita Priyadarsinee Nayak (EMP1206)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "21 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT048",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-239) to Anusha Adapa (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT049",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 49 (DSV-LAP-240) to Anvesh Reddy Annem (EMP9029)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "04 Jul 2022, 09:30 AM"
+  },
+  {
+    "id": "ACT050",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad E14 (QITS-LAP-241) to Arajala Gopala Krishna (EMP1343)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT051",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-242) to Arajala Gopala Krishna (EMP1343)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT052",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-243) to Aravinda G B (EMP1325)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT053",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/177 (DSV-LAP-244) to Aravinda G B (EMP1325)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT054",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-245) to Are Naren (EMP1109)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT055",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/127 (DSV-LAP-246) to Are Naren (EMP1109)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Apr 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT056",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-247) to Are Naren (EMP1109)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT057",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-248) to Are Nikhil Kumar (EMP1142)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT058",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora _ HP EliteBook 840 G11 (QITS-LAP-249) to Are Nikhil Kumar (EMP1142)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "02 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT059",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/137 (DSV-LAP-250) to Ashwani Soni (EMP1232)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 Apr 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT060",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-251) to Bala Veera Naga Lakshmi Mummidi (EMP1253)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT061",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/157 (DSV-LAP-252) to Bala Veera Naga Lakshmi Mummidi (EMP1253)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT062",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-253) to Bashetty Akash (EMP1116)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT063",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Thinkpad (QITS-LAP-253) from Bashetty Akash",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jul 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT064",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset EPOS Sennheiser PC 8 Over-Ear USB (QITS-HDST-254) to Bashetty Akash (EMP1116)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Mar 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT065",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset EPOS Sennheiser PC 8 Over-Ear USB (QITS-HDST-254) from Bashetty Akash",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jul 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT066",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech B 170 (QITS-MOU-255) to Bashetty Akash (EMP1116)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT067",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Mouse Logitech B 170 (QITS-MOU-255) from Bashetty Akash",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jul 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT068",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-256) to Bharath Kumar Polireddi (EMP1296)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT069",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/194 (DSV-LAP-257) to Bharath Kumar Polireddi (EMP1296)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Feb 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT070",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-258) to Bharath Kumar.S (EMP1389)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT071",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-259) to Ashirbad Mohanty (EMP_RET_259)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT072",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-259) from Ashirbad Mohanty",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Apr 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT073",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-259) to Bharathkumar S (EMP1389)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "04 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT074",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-260) to Bharathkumar S (EMP1389)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT075",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech M186 (QITS-MOU-261) to Bhargava (EMP1154)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT076",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-262) to Bhavesh Ginwal (EMP1292)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT077",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/159 (DSV-LAP-263) to Bhavesh Ginwal (EMP1292)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT078",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-264) to Bhisne Umesh (EMP1218)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT079",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/49 (DSV-LAP-265) to Bhisne Umesh (EMP1218)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "02 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT080",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-266) to Bhooma Prem Sagar (EMP1345)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT081",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech B 170 (QITS-MOU-267) to Bindu Kiran Chavala (EMP1111)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT082",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Polycam Poly Studio V52 USB Video Bar (QITS-CAM-268) to Board Room-1 (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT083",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Polycam 3 Year Poly+ Support for V52 (QITS-CAM-269) to Board Room-1 (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT084",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Polycam Poly Studio X52/V52 Wall Mount (QITS-CAM-270) to Board Room-1 (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT085",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Polycam BARCO ClickShare CX-30 Gen 2 (QITS-CAM-271) to Board Room-1 (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT086",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned TV Samsung  65 Inch (QITS-TV-272) to Board Room-2 (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Dec 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT087",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned TV Samsung  85 Inch (QITS-TV-273) to Board Room-2 (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT088",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-274) to Boda Madhu (EMP1229)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT089",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-275) to Boda Madhu (EMP1229)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT090",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/118 (DSV-LAP-276) to Boda Madhu (EMP1229)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT091",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/17 (DSV-LAP-277) to Brahmini Kaali (EMP1131)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 Dec 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT092",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned TV Samsung  55 Inch (QITS-TV-278) to CEO Cabin (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT093",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Printer Printer (QITS-PRN-279) to CFO cabin (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT094",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-280) to Chaitanya Sri Narisetti (EMP1178)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT095",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/154 (DSV-LAP-281) to Chaitanya Sri Narisetti (EMP1178)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT096",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-282) to Chaitanya Sri Narisetti (EMP1178)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT097",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/70 (DSV-LAP-283) to Chakrapani Rupa Echankarani (EMP1171)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT098",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/7 (DSV-LAP-284) to Chamakura Sai Sri (EMP1123)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Nov 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT099",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-285) to Chandra Shekar Praneeth Boddu (EMP1061)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT100",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 81 (DSV-LAP-286) to Chandra Shekar Praneeth Boddu (EMP1061)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jan 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT101",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-287) to Chandramouli Drondurla (EMP1377)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT102",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken Pamtoken (DSV-TOK-288) to Chandramouli Drondurla (EMP1377)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT103",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-289) to Chandramouli Kotha (EMP1016)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT104",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop - (DSV-LAP-290) to Chandramouli Kotha (EMP1016)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT105",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (QITS-LAP-291) to Chandrasekaran M (EMP1260)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT106",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset EPOS Headset (QITS-HDST-292) to Chandrasekaran M (EMP1260)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT107",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-293) to Chandrasekaran M (EMP1260)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT108",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-294) to Chandrasekaran M (EMP1260)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT109",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-295) to Chandrasekaran Muthukutty (EMP1260)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT110",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken Pamtoken (DSV-TOK-296) to Chandrasekaran Muthukutty (EMP1260)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT111",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech B 170 (QITS-MOU-297) to Chappidi Tirumala Swaroop (EMP1119)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT112",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-298) to Chappidi Tirumala Swaroop (EMP1119)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT113",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/28 (DSV-LAP-299) to Chappidi Tirumala Swaroop (EMP1119)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Dec 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT114",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-300) to Chappidi Tirumala Swaroop (EMP1119)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT115",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/58 (DSV-LAP-301) to Chenchaiah Sudulagunta (EMP1259)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT116",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSVYKey10 (DSV-TOK-302) to Chenchaiah Sudulagunta (EMP1259)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT117",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-303) to Gayathri Murahari (EMP_RET_303)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT118",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-303) from Gayathri Murahari",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "07 Mar 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT119",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-303) to Chennaboina Bharath Yadav (EMP1427)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT120",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-304) to Chennaboina Bharath Yadav (EMP1427)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT121",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken Pamtoken (DSV-TOK-305) to Chennaboina Bharath Yadav (EMP1427)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "07 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT122",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/88 (DSV-LAP-306) to Chetan Bajrang Dhutekar (EMP1266)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT123",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/161 (DSV-LAP-307) to Chinnarao Korada (EMP1272)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT124",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSVYKey16 (DSV-TOK-308) to Chinnarao Korada (EMP1272)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT125",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 63 (DSV-LAP-309) to Chinthallapudi Ramachandra Rao (EMP9016)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "24 Feb 2021, 09:30 AM"
+  },
+  {
+    "id": "ACT126",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-310) to Sujith Kumar Varigonda (EMP_RET_310)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT127",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-310) from Sujith Kumar Varigonda",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT128",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-310) to Chiranjeevi Yadav Guntuboina (EMP1414)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT129",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-311) to Chiranjeevi Yadav Guntuboina (EMP1414)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT130",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-312) to Chiranjeevi Yadav Guntuboina (EMP1414)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT131",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Macbook (TRB-LAP-313) to Daggula Nayesh (EMP1341)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT132",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/165 (DSV-LAP-314) to Deepa K G (EMP1332)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jan 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT133",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-315) to Dheeraj C P (EMP1126)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT134",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/6 (DSV-LAP-316) to Dheeraj C P (EMP1126)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Nov 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT135",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-317) to Dinesh Babu Rajan (EMP1379)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT136",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken  (DSV-TOK-318) to Dinesh babu Rajan (EMP1379)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT137",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset DSV Headset (DSV-HDST-319) to Dinesh babu Rajan (EMP1379)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT138",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-320) to Dinesh Pallapothu (EMP1350)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT139",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop - (DSV-LAP-321) to Dinesh pallapothu (EMP1350)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT140",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned TV Samsung  43 Inch (QITS-TV-322) to Disscusion Room-1 (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT141",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned TV Samsung  43 Inch (QITS-TV-323) to Disscusion Room-2 (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT142",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-324) to Dodda Phanindra (EMP1125)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT143",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/29 (DSV-LAP-325) to Dodda Phanindra (EMP1125)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Dec 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT144",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Hewlett-Packard (QITS-LAP-326) to M N S Pawan Kumar (EMP_RET_326)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT145",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Hewlett-Packard (QITS-LAP-326) from M N S Pawan Kumar",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT146",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Hewlett-Packard (QITS-LAP-326) to Durga Bhargava Rao Goparaju (EMP1154)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT147",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-327) to Durga Bhargava Rao Goparaju (EMP1154)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "21 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT148",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-328) to Durga Bhargava Rao Goparaju (EMP1154)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT149",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-329) to Easwaravishnu S R (EMP1257)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT150",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/104 (DSV-LAP-330) to Easwaravishnu S R (EMP1257)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT151",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Desktop Desktop Set DDR4-i5 (ECO-DSKT-331) to Econest Office Usage (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT152",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-332) to Eeda Ramprasad (EMP1103)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT153",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/103 (DSV-LAP-333) to Eeda Ramprasad (EMP1103)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT154",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop ThinkPad E14 Gen 5 (QITS-LAP-334) to Venkata Hitamsu Pamidipati (EMP_RET_334)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT155",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop ThinkPad E14 Gen 5 (QITS-LAP-334) from Venkata Hitamsu Pamidipati",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22-05-2-2026, 04:30 PM"
+  },
+  {
+    "id": "ACT156",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop ThinkPad E14 Gen 5 (QITS-LAP-334) to Ega Shabarinath (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT157",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-335) to Sri Laxmi Chandana Doppalapudi (EMP_RET_335)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT158",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo E14 G5 (TRB-LAP-335) from Sri Laxmi Chandana Doppalapudi",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "27 Feb 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT159",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-335) to Farookchand Shaik (EMP1327)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT160",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-336) to Pragathi podugu(1305) (EMP_RET_336)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT161",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Thinkpad (QITS-LAP-336) from Pragathi podugu(1305)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Nov 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT162",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-336) to Farookchand Shaik (EMP1327)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT163",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-337) to Farookchand Shaik (EMP1327)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT164",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned synology synology Nas Box (QITS-NAS-338) to Farookchand shaik (EMP1327)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "02 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT165",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/63 (DSV-LAP-339) to Ganapathy Subramaniam S (EMP1241)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "27 Feb 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT166",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Airtel Postpaid Airtel Sim(In bound) (ECO-SIM-340) to Gopal sir (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT167",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-341) to Gopinath Gurram (EMP1057)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT168",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-342) to Gopinath Gurram (EMP1057)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jul 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT169",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/74 (DSV-LAP-343) to Gourav Tank (EMP1190)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT170",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-344) to Gourav Tanwar (EMP1152)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT171",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/43 (DSV-LAP-345) to Gourav Tanwar (EMP1152)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "02 Jan 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT172",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (QITS-LAP-346) to Ravisankar Nataraj (EMP_RET_346)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Apr 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT173",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo ThinkPad (QITS-LAP-346) from Ravisankar Nataraj",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT174",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (QITS-LAP-346) to Govindarajula Akash (EMP1423)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT175",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-347) to Sai sindhu Cahavali (EMP_RET_347)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT176",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-347) from Sai sindhu Cahavali",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT177",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-347) to Govindarajula Akash (EMP1423)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT178",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Bluetooth mouse (QITS-MOU-348) to Govindarajula Akash (EMP1423)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT179",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-349) to Govindu Sreenivasulu (EMP1300)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT180",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/152 (DSV-LAP-350) to Govindu Sreenivasulu (EMP1300)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT181",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 69 (DSV-LAP-351) to Gowtham Keshana (EMP1076)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Jul 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT182",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-352) to Gowtham Reddy Sykam (EMP1281)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT183",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/189 (DSV-LAP-353) to Gowtham Reddy Sykam (EMP1281)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jan 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT184",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad L14 (QITS-LAP-354) to Gowthami (from Guntur) (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT185",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora 2 _ HP EliteBook 840 G10 (QITS-LAP-355) to Guduru Hasanthi (EMP1102)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT186",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Head Phones (QITS-HDST-357) to Durga Bhargava Rao Goparaju (EMP1154)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jan 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT187",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Head Phones (QITS-HDST-357) from Durga Bhargava Rao Goparaju",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT188",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Head Phones (QITS-HDST-357) to Guduru Hasanthi (EMP1102)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT189",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Bluetooth mouse (QITS-MOU-358) to Guduru Hasanthi (EMP1102)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT190",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (DSV-LAP-359) to Harish Baer (EMP1357)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Oct 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT191",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSV Ykey  - 25(PAM Token) (DSV-TOK-360) to Harish Baer (EMP1357)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT192",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset DSV Headset 10 (DSV-HDST-361) to Harish Baer (EMP1357)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT193",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-362) to Harish Bear (EMP1357)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT194",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/50 (DSV-LAP-363) to Haritha Lakkamsani (EMP1196)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "02 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT195",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/123 (DSV-LAP-364) to Harpreet Kaur (EMP1231)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT196",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-365) to Harshavardhan Gadupudi (EMP1404)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT197",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-366) to Harshavardhan Gadupudi (EMP1404)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT198",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-367) to Harshavardhan Gadupudi (EMP1404)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT199",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Hewlett-Packard (QITS-LAP-368) to Ayushi Sharma (EMP_RET_368)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Apr 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT200",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Hewlett-Packard (QITS-LAP-368) from Ayushi Sharma",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Apr 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT201",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Hewlett-Packard (QITS-LAP-368) to Harshith Raj Dosada (EMP1391)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT202",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-369) to Harshith Raj Dosada (EMP1391)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT203",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-370) to Harshith Raj Dosada (EMP1391)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT204",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop ThinkPad E14 Gen 5 (DSV-LAP-371) to Heena Umesh Sharma (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT205",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Hard drive Segate Onetouch (QITS-HDD-372) to HR (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT206",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Printer Printer (QITS-PRN-373) to HR Cabin (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT207",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-374) to Hussain Aruva (EMP1347)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT208",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora _ HP EliteBook 840 G11 (QITS-LAP-375) to Hussain Aruva (EMP1347)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT209",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-376) to Sunil Padma (EMP_RET_376)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT210",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-376) from Sunil Padma",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jan 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT211",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-376) to In (EMP1106)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT212",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV LAPTOP 13 (DSV-LAP-377) to Priyanka Palli (EMP_RET_377)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT213",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop DSV LAPTOP 13 (DSV-LAP-377) from Priyanka Palli",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Mar 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT214",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pendrive Sandisk 8GB (QITS-HDD-378) to IT (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT215",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pendrive Sandisk 64GB(3.0) (QITS-HDD-379) to IT (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT216",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Hard drive Segate (QITS-HDD-380) to IT (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT217",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-381) to Jagadish Prabhakar Gandamalla (EMP1065)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT218",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 53 (DSV-LAP-382) to Jagadish Prabhakar Gandamalla (EMP1065)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Oct 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT219",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-383) to Jagedeesh Prabhakar (EMP1065)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT220",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/193 (DSV-LAP-384) to Jai Amrit Raj (EMP1318)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jan 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT221",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-385) to Jaladi Kavya (EMP1122)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT222",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/5 (DSV-LAP-386) to Jaladi Kavya (EMP1122)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "21 Nov 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT223",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-387) to Jasmine Peyyala (EMP1402)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT224",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-388) to Jasmine Peyyala (EMP1402)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT225",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-389) to Jasmine Peyyala (EMP1402)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT226",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-390) to Srikanth Boddu (EMP_RET_390)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT227",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-390) from Srikanth Boddu",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT228",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-390) to Jay Laxman Chavan (EMP1174)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT229",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop - (DSV-LAP-391) to Jay Laxman chavan (EMP1174)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT230",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/8 (DSV-LAP-392) to Jebaraj Stephen S (EMP1159)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Nov 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT231",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-393) to Jebaraj Stephen S (EMP1159)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT232",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 70 (DSV-LAP-394) to Jeevan Teja Srirama (EMP9007)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Dec 2018, 09:30 AM"
+  },
+  {
+    "id": "ACT233",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop - (DSV-LAP-395) to Julfiur Rahman (EMP1017)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT234",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-396) to Sanjana Bheemsen Inamdar (EMP_RET_396)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "31 Oct 2025, 10:00 AM"
+  },
+  {
+    "id": "ACT235",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-396) from Sanjana Bheemsen Inamdar",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "24 Mar 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT236",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-396) to Julfiur Rehman (EMP1017)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT237",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/155 (DSV-LAP-397) to Kalaiselvi Ganesan (EMP1320)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT238",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-398) to Kali Vara Prasad Narayanasetti (EMP1409)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT239",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-399) to Kali Vara Prasad Narayanasetti (EMP1409)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT240",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/85 (DSV-LAP-401) to Kalpana M (EMP1263)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Dec 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT241",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-402) to Kanike Shashi Preetam (EMP1303)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT242",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/182 (DSV-LAP-403) to Kanike Shashi Preetam (EMP1303)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT243",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-404) to Karishma Lenka (EMP1383)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT244",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-405) to Karishma Lenka (EMP1383)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT245",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-406) to Karishma Lenka (EMP1383)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT246",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Dell (QITS-LAP-407) to Kaushiki Kinny (EMP1098)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT247",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/48 (DSV-LAP-408) to Kavitha M (EMP1216)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "02 Dec 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT248",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/113 (DSV-LAP-409) to Kedar Singh (EMP1234)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT249",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/153 (DSV-LAP-410) to Keerthi Manchala (EMP1319)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Nov 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT250",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Hewlett-Packard (QITS-LAP-411) to Kolakani Spandana (EMP5028)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT251",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-412) to Kolli Madhu (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT252",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken Pamtoken (DSV-TOK-413) to Kolli Madhu (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT253",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop ThinkPad E14 Gen 5 (QITS-LAP-414) to Mullapudi Lakshmi Bhargavi (EMP_RET_414)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT254",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop ThinkPad E14 Gen 5 (QITS-LAP-414) from Mullapudi Lakshmi Bhargavi",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46104, 04:30 PM"
+  },
+  {
+    "id": "ACT255",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop ThinkPad E14 Gen 5 (QITS-LAP-414) to Kommineni Srinivasa Rao (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT256",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech M 171 (QITS-MOU-415) to Kommineni Srinivasa Rao (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT257",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-416) to Kommineni Srinivasa Rao (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT258",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Cricket Complete Kit Cricket Kit (QITS-AST-417) to Kommineni Srinivasa Rao (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT259",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Sound Box JBL  Party sound Box wirless Mic (QITS-AST-418) to Kommineni Srinivasa Rao (EMP1115)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT260",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse DELL (QITS-MOU-419) to Kommineni Venkata Karthik (EMP1288)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT261",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop - (DSV-LAP-420) to Kommineni Venkata Karthik (EMP1288)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT262",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/187 (DSV-LAP-421) to Konda Reddy Nagireddy (EMP1315)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "29 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT263",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSV Ykey 20 (DSV-TOK-422) to Konda Reddy Nagireddy (EMP1315)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT264",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset DSV Headset 9 (DSV-HDST-423) to Konda Reddy Nagireddy (EMP1315)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT265",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-424) to Konda Reddy Nagireddy (EMP1315)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT266",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-425) to Korada chinna Rao (EMP1272)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Dec 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT267",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-426) to Koteswararao Kurakula (EMP1200)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT268",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/81 (DSV-LAP-427) to Koteswararao Kurakula (EMP1200)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Dec 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT269",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse HP (QITS-MOU-428) to Krishna Babu Jasti (EMP1334)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT270",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-429) to Krishna Babu Jasti (EMP1334)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT271",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/163 (DSV-LAP-430) to Krishna Babu Jasti (EMP1334)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT272",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-431) to Krishna babu Jasti (EMP1334)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT273",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop HP (QITS-LAP-432) to Krishnaiah Dodda (EMP1002)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT274",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech M186 (QITS-MOU-433) to Krishnaiah Dodda(COO) (EMP1002)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT275",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Monitor Monitor (QITS-AST-434) to Krishnaiah Dodda(COO) (EMP1001)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT276",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-435) to Kumaran Balasundaram (EMP1073)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT277",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo ThinkPad (DSV-LAP-435) from Kumaran Balasundaram",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46149, 04:30 PM"
+  },
+  {
+    "id": "ACT278",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/67 (DSV-LAP-436) to Manasa Paka (EMP1182)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT279",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop QIS/DSV/2024-25/67 (DSV-LAP-436) from Manasa Paka",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 May 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT280",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/67 (DSV-LAP-436) to Kunkanuru Madhavi (EMP1378)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT281",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora 3 _ HP EliteBook840G10 (QITS-LAP-437) to Kunkanuru Pavani (EMP1295)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT282",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-438) to Kunkanuru Pavani (EMP1295)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT283",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/184 (DSV-LAP-439) to Lakshman Kumar Korapati (EMP1337)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT284",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSV Ykey  - 24(PAM Token) (DSV-TOK-440) to Lakshman Kumar Korapati (EMP1337)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT285",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Wireless (DSV-HDST-441) to Lakshman Kumar Korapati (EMP1337)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT286",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/140 (DSV-LAP-442) to Lakshmi Boddapati (EMP1240)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT287",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (QITS-LAP-443) to Prasanna Sai Kumar Majji (EMP_RET_443)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT288",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo E14 G5 (QITS-LAP-443) from Prasanna Sai Kumar Majji",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46080, 04:30 PM"
+  },
+  {
+    "id": "ACT289",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (QITS-LAP-443) to Lakshmi Samrajya Ananya Machavaram (EMP1367)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT290",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Think pad (TRB-LAP-444) to Lakshmi Samrajya Ananya Machavaram (EMP1367)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT291",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-445) to Lakshmi Samrajya Ananya Machavaram (EMP1367)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT292",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-446) to Lalith Kumar Bairman (EMP1012)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT293",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 26 (DSV-LAP-447) to Lalith Kumar Bairman (EMP1012)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 Jul 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT294",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-448) to Lalitha Teja Lakshmi Sagar Dandem (EMP1403)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT295",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-449) to Lalitha Teja Lakshmi Sagar Dandem (EMP1403)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT296",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-450) to Lalitha Teja Lakshmi Sagar Dandem (EMP1403)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT297",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/60 (DSV-LAP-451) to Lalli K (EMP1239)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Feb 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT298",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-452) to Lavanya Mondepulanka (EMP1176)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT299",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop PF-5L7W1V (DSV-LAP-453) to Lavanya Mondepulanka (EMP1176)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Sep 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT300",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/116 (DSV-LAP-454) to Leela Krishna Sri Pasupuleti (EMP1267)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT301",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-455) to Leela Sai Epparla (EMP1019)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT302",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV LAPTOP 9 (DSV-LAP-456) to Leela Sai Epparla (EMP1019)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Oct 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT303",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-457) to Leela Venkata Rama Krishna Bharadwaj Samavedam (EMP1405)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT304",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-458) to Leela Venkata Rama Krishna Bharadwaj Samavedam (EMP1405)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT305",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-459) to Leela Venkata Rama Krishna Bharadwaj Samavedam (EMP1405)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT306",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-460) to Sushma Sonam Golla (EMP_RET_460)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT307",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Thinkpad (QITS-LAP-460) from Sushma Sonam Golla",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46077, 04:30 PM"
+  },
+  {
+    "id": "ACT308",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-460) to Leena Thumma (EMP1376)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT309",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-461) to Simran P (EMP_RET_461)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT310",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-461) from Simran P",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46092, 04:30 PM"
+  },
+  {
+    "id": "ACT311",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-461) to Leena Thumma (EMP1376)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT312",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop  (QITS-LAP-462) to Lokesh unnam (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT313",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad L14 (QITS-LAP-463) to Kommineni Venkata Karthik (EMP1288)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT314",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Thinkpad L14 (QITS-LAP-463) from Kommineni Venkata Karthik",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46094, 04:30 PM"
+  },
+  {
+    "id": "ACT315",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad L14 (QITS-LAP-463) to Lokeswar Velamuri (EMP1096)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT316",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-464) to Madhavi Kunkanuru (EMP1378)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "14 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT317",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-465) to Madhavi Kunkanuru (EMP1378)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT318",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/72 (DSV-LAP-466) to Madhavi Latha Subbara (EMP1243)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT319",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-467) to Mahesh Upari (EMP1342)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT320",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Dell Latitude 3440 (QITS-LAP-468) to Mahesh Uppari (EMP1342)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT321",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-469) to Manabhanjan Joshi (EMP1097)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT322",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/15 (DSV-LAP-470) to Manas Ranjan Pradhan (EMP1185)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "21 Dec 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT323",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Dell Latitude 3430 (QITS-LAP-471) to Ramesh Badige Narasappa (EMP1421)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT324",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Dell Latitude 3430 (QITS-LAP-471) from Ramesh Badige Narasappa",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT325",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Dell Latitude 3430 (QITS-LAP-471) to Manasa Paka (EMP1182)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT326",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-472) to Srinivasa Durugamahanti (EMP_RET_472)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT327",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-472) from Srinivasa Durugamahanti",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46059, 04:30 PM"
+  },
+  {
+    "id": "ACT328",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-472) to Manasa Potli (EMP4003)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT329",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Desktop Desktop set (27 inch Monitor)-1 (QITS-DSKT-473) to Manasa Potli (EMP4003)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT330",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-474) to Arige Pranay Kumar (EMP_RET_474)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT331",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo E14 G5 (TRB-LAP-474) from Arige Pranay Kumar",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46375, 04:30 PM"
+  },
+  {
+    "id": "ACT332",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-474) to Maneesha Nateti (EMP1368)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "07 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT333",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-475) to Maneesha Natteteti (EMP1368)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT334",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/55 (DSV-LAP-476) to Manjunath Busanagappagari (EMP1230)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 Feb 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT335",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-477) to Manjunath Hotgar (EMP1328)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT336",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop ThinkPad E14 Gen 5 (DSV-LAP-478) to Manjunath Hotgar (EMP1328)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT337",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora 6 _ HP EliteBook 840 G10 (QITS-LAP-479) to Nirajan Goud (EMP_RET_479)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT338",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Encora 6 _ HP EliteBook 840 G10 (QITS-LAP-479) from Nirajan Goud",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT339",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora 6 _ HP EliteBook 840 G10 (QITS-LAP-479) to Mateen Uddin MD (EMP1336)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT340",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-480) to Mateen Uddin MD (EMP1336)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT341",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/10 (DSV-LAP-481) to Mayank Kamra (EMP1144)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 Dec 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT342",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop - (DSV-LAP-482) to Megha.T (EMP1329)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT343",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop HP (QITS-LAP-483) to Hussain Aruva (EMP1347)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT344",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop HP (QITS-LAP-483) from Hussain Aruva",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46141, 04:30 PM"
+  },
+  {
+    "id": "ACT345",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop HP (QITS-LAP-483) to Meghana Kamidi (EMP1392)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "04 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT346",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-484) to Meghana Kamidi (EMP1392)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT347",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-485) to Meghana Kamidi (EMP1392)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT348",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad L14 (QITS-LAP-486) to Anjali Chuvudu (EMP_RET_486)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT349",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Thinkpad L14 (QITS-LAP-486) from Anjali Chuvudu",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03-0ct, 04:30 PM"
+  },
+  {
+    "id": "ACT350",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad L14 (QITS-LAP-486) to Mounika Golla (EMP1363)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "24 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT351",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-487) to Manoj Kumar K S (EMP_RET_487)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "31 Oct 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT352",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-487) from Manoj Kumar K S",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46146, 04:30 PM"
+  },
+  {
+    "id": "ACT353",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-487) to Mounika Lahari Saniboyina (EMP1385)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT354",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/11 (DSV-LAP-488) to Sai Ram Sadanala (EMP_RET_488)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT355",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop QIS/DSV/2024-25/11 (DSV-LAP-488) from Sai Ram Sadanala",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT356",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/11 (DSV-LAP-488) to Mounika Lahari Saniboyina (EMP1385)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT357",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-489) to Mounika Lahari Saniboyina (EMP1385)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT358",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-490) to Mounika Reyya (EMP1277)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT359",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-491) to Mounika Reyya (EMP1277)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT360",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Bluetooth mouse (QITS-MOU-492) to Mounika Reyya (EMP1277)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT361",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/35 (DSV-LAP-493) to Mounisha Karangula (EMP1160)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT362",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSVYKey6 (DSV-TOK-494) to Mounisha Karangula (EMP1160)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT363",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset DSV Headset 5 (DSV-HDST-495) to Mounisha Karangula (EMP1160)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT364",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/26 (DSV-LAP-496) to Are Nikhil Kumar (EMP1142)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT365",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop QIS/DSV/2024-25/26 (DSV-LAP-496) from Are Nikhil Kumar",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46119, 04:30 PM"
+  },
+  {
+    "id": "ACT366",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/26 (DSV-LAP-496) to Mrudula Teki (EMP1384)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT367",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Think pad (TRB-LAP-497) to Sahana B.M (EMP_RET_497)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT368",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Think pad (TRB-LAP-497) from Sahana B.M",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46092, 04:30 PM"
+  },
+  {
+    "id": "ACT369",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Think pad (TRB-LAP-497) to Mudavath Rajesh (EMP5049)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT370",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-498) to Arun Kumar Sheela (EMP_RET_498)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT371",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-498) from Arun Kumar Sheela",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT372",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-498) to Mudavath Rajesh (EMP5049)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT373",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/54 (DSV-LAP-499) to Mudunuri Neelesh Varma (EMP1222)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "14 Feb 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT374",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-500) to Mudunuri Neelesh Varma (EMP1222)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT375",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-501) to Mullapudi Venkata Siva Durga Phaneendra Kumar (EMP1294)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT376",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Think Pad (DSV-LAP-502) to Mullapudi Venkata Siva Durga Phaneendra Kumar (EMP1294)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT377",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-503) to Munnangi Binay Sai Kumar (EMP1248)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT378",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/151 (DSV-LAP-504) to Munnangi Binay Sai Kumar (EMP1248)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT379",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-505) to Murali Krishna Kommineni (EMP1001)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT380",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 74 (DSV-LAP-506) to Naga Bhadarinath Sistla (EMP9010)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Jun 2019, 09:30 AM"
+  },
+  {
+    "id": "ACT381",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-507) to Naga Harika Diwakarla (EMP1081)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT382",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (DSV-LAP-508) to Naga Harika Diwakarla (EMP1081)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT383",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-509) to Naga Harika Diwakarla (EMP1081)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT384",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Lenovo Wireless Mouse (QITS-MOU-510) to Naga Harika Diwakarla - assigned on 11-July-2025 (EMP1081)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT385",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Airtel Postpaid Airtel Sim (ECO-SIM-511) to Naga Raju Mandala (EMP6002)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT386",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Airtel Postpaid Aitrtel Sim (ECO-SIM-512) to Naga Raju Mandala (EMP6002)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT387",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop - (DSV-LAP-513) to Naga Sandhya Sistla (EMP1025)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT388",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-514) to Naga Venkata Sai Prakash (EMP1333)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT389",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora _ HP EliteBook 840 G11 (QITS-LAP-515) to Naga Venkata Sai Prakash (EMP1333)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT390",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop ThinkPad E14 Gen 5 (QITS-LAP-516) to Naga Venkata Sai Prakash Kaikala (EMP1333)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT391",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 68 (DSV-LAP-517) to Naga Venkata Surya Lalitha Sai Divya Achalla (EMP1191)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jun 2022, 09:30 AM"
+  },
+  {
+    "id": "ACT392",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-518) to Vignesh Settu (EMP_RET_518)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT393",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Thinkpad (QITS-LAP-518) from Vignesh Settu",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46097, 04:30 PM"
+  },
+  {
+    "id": "ACT394",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-518) to Naga Venkata Vamshi Sagar Rao Kanaparthi (EMP1382)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "07 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT395",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-519) to Nagabharana V G (EMP1246)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT396",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/148 (DSV-LAP-520) to Nagabharana V G (EMP1246)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT397",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/185 (DSV-LAP-521) to Nagalaxmi Balla (EMP1316)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "29 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT398",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSV Ykey 18 (DSV-TOK-522) to Nagalaxmi Balla (EMP1316)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT399",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset DSV Headset 7 (DSV-HDST-523) to Nagalaxmi Balla (EMP1316)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT400",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/134 (DSV-LAP-524) to Naganjali Hanuma Priya Vinnakota (EMP1236)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 Apr 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT401",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSVYKey15 (DSV-TOK-525) to Naganjali Hanuma Priya Vinnakota (EMP1236)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT402",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Monitor Monitor (QITS-AST-526) to Nagarjuna Kumar Pilli (EMP9024)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "24 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT403",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-527) to Nagarjuna Kumar Pilli (EMP9024)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Sep 2022, 09:30 AM"
+  },
+  {
+    "id": "ACT404",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-528) to Nagasandhya Sistla (EMP1025)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT405",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/181 (DSV-LAP-529) to Nagasayana Reddy Jonnala (EMP1358)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Oct 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT406",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSV Ykey  - 23(PAM Token) (DSV-TOK-530) to Nagasayana Reddy Jonnala (EMP1358)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT407",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-531) to NagaVenkata Ravikanth Bitra (EMP1247)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT408",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/124 (DSV-LAP-532) to NagaVenkata Ravikanth Bitra (EMP1247)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT409",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/186 (DSV-LAP-533) to Nagireddy Guduru (EMP1359)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Nov 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT410",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken 33819800 (DSV-TOK-534) to Nagireddy Guduru (EMP1359)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT411",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset DSV Headset 8 (DSV-HDST-535) to Nagireddy Guduru (EMP1359)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT412",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-536) to Nagireddy Guduru (EMP1359)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT413",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/19 (DSV-LAP-537) to Narahari Bala Chander (EMP1135)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 Dec 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT414",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech M186 (QITS-MOU-538) to Narahari Balachander (EMP1135)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT415",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Macbook (TRB-LAP-539) to Sai Sriram(5036) (EMP_RET_539)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT416",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Macbook (TRB-LAP-539) from Sai Sriram(5036)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46312, 04:30 PM"
+  },
+  {
+    "id": "ACT417",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Macbook (TRB-LAP-539) to Narayana chiduruppa (EMP1366)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "07 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT418",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Apple Magic Mouse (QITS-MOU-540) to Maneesha Natteti (EMP_RET_540)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT419",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Mouse Apple Magic Mouse (QITS-MOU-540) from Maneesha Natteti",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46302, 04:30 PM"
+  },
+  {
+    "id": "ACT420",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Apple Magic Mouse (QITS-MOU-540) to Narayana Reddy chiduruppa (EMP1366)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "07 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT421",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset EPOS Sennheiser PC 8 Over-Ear USB (QITS-HDST-541) to Narendra Prasad Killi (EMP1070)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT422",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-542) to Narendra Prasad Killi (EMP1070)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT423",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop - (DSV-LAP-543) to Narendra Prasad Killi (EMP1070)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT424",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-544) to Narendra Prasad Killi (EMP1070)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT425",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-545) to Naresh Kumar Manikanti (EMP5013)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT426",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-546) to Naresh Kumar Manikanti (EMP5013)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT427",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/22 (DSV-LAP-547) to Navdeep Singh (EMP1153)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "02 Jun 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT428",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora 4 _ HP EliteBook 840 G10 (QITS-LAP-548) to Naveen Dodda (EMP1090)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT429",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset EPOS Sennheiser PC 8 Over-Ear USB (QITS-HDST-549) to Naveen Dodda (EMP1090)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT430",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset EPOS Sennheiser PC 8 Over-Ear USB (QITS-HDST-549) from Naveen Dodda",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46360, 04:30 PM"
+  },
+  {
+    "id": "ACT431",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Head Phones (QITS-HDST-550) to Sushma Sonam Golla (EMP_RET_550)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jan 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT432",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Head Phones (QITS-HDST-550) from Sushma Sonam Golla",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT433",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Head Phones (QITS-HDST-550) to Naveen Dodda (EMP1090)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT434",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-551) to Naveen Dodda (EMP1090)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT435",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-552) to Naveen Kumar Kothoori (EMP1313)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT436",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (DSV-LAP-553) to Naveen Kumar Kothoori (EMP1313)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "04 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT437",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/80 (DSV-LAP-554) to Navin Krishnan S R (EMP1194)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT438",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-555) to Navin Krishnan SR (EMP1194)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT439",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (DSV-LAP-556) to navya sree (EMP1369)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT440",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-557) to Navya sree Guthula (EMP1369)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT441",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSV Ykey  - 29(PAM Token) (DSV-TOK-558) to Navya Sree Guthula (EMP1369)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT442",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV LAPTOP 2 (DSV-LAP-559) to Neel Kamal Katepally (EMP9027)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Mar 2022, 09:30 AM"
+  },
+  {
+    "id": "ACT443",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-560) to Neethu Babu (EMP1201)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT444",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/94 (DSV-LAP-561) to Neethu Babu (EMP1201)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "21 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT445",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad E14 (QITS-LAP-562) to Neha Thakkar (EMP1014)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT446",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset EPOS Sennheiser PC 8 Over-Ear USB (QITS-HDST-563) to Niranjan Goud Gullapalli (EMP1059)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT447",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-564) to Prasanna Sai Kumar Majji (EMP_RET_564)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT448",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-564) from Prasanna Sai Kumar Majji",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46080, 04:30 PM"
+  },
+  {
+    "id": "ACT449",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-564) to Niranjan Goud Gullapalli (EMP1059)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT450",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/105 (DSV-LAP-565) to Niranjan Goud Gullapalli (EMP1059)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT451",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-566) to Nivedha Kannan (EMP1361)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT452",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora 8 _ HP EliteBook 840 G10 (QITS-LAP-567) to Nivedha Kannan (EMP1361)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT453",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-568) to Vignesh Settu (EMP_RET_568)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT454",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-568) from Vignesh Settu",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46125, 04:30 PM"
+  },
+  {
+    "id": "ACT455",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-568) to Nivethitha R (EMP1324)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT456",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/160 (DSV-LAP-569) to Nivethitha R (EMP1324)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Aug 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT457",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 79 (DSV-LAP-570) to Pankaj Nawani (EMP9003)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Sep 2017, 09:30 AM"
+  },
+  {
+    "id": "ACT458",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/65 (DSV-LAP-571) to Pavan Kumar Permi (EMP1180)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT459",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-572) to Pavani Thangellapalli (EMP1410)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 May 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT460",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-572) from Pavani Thangellapalli",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Jul 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT461",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-573) to Pavani Thangellapalli (EMP1410)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT462",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-573) from Pavani Thangellapalli",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Jul 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT463",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-574) to Pavani Thangellapalli (EMP1410)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT464",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-575) to Pavitra Kangaraj (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "23 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT465",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-576) to Pinninti Manasa (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT466",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken Pamtoken (DSV-TOK-577) to Pinninti Manasa (EMP00-)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT467",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Quadrant Laptop (QITS-LAP-578) to Pirisingula Chaithanya (EMP1118)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT468",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset EPOS Sennheiser PC 8 Over-Ear USB (QITS-HDST-579) to Pirisingula Chaithanya (EMP1118)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT469",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-580) to Pooja (EMP1285)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT470",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 54 (DSV-LAP-581) to Pooja Suryakant Kamble (EMP9020)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Mar 2022, 09:30 AM"
+  },
+  {
+    "id": "ACT471",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/131 (DSV-LAP-582) to Poojitha Marupakula (EMP1280)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Apr 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT472",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/112 (DSV-LAP-583) to Poornima S Shenoy (EMP1211)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT473",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/14 (DSV-LAP-584) to Potipireddi Srinivas (EMP1130)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 Dec 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT474",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/125 (DSV-LAP-585) to Prachi Gupta (EMP1225)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT475",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-586) to Pragathi Podugu (EMP1305)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT476",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/204 (DSV-LAP-587) to Pragathi Podugu (EMP1305)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Nov 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT477",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 80 (DSV-LAP-588) to Pramod Kumar (EMP9005)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Nov 2017, 09:30 AM"
+  },
+  {
+    "id": "ACT478",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-589) to Pranay Vishwambhar Kharode (EMP1254)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "14 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT479",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/141 (DSV-LAP-590) to Pranay Vishwambhar Kharode (EMP1254)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT480",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-591) to Prasadu Lingala Dinne (EMP1282)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT481",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/126 (DSV-LAP-592) to Prasadu Lingala Dinne (EMP1282)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT482",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV LAPTOP 62 (DSV-LAP-593) to Pratik Dattatray Bhoite (EMP9004)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Oct 2017, 09:30 AM"
+  },
+  {
+    "id": "ACT483",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-594) to Pravallika Lingala (EMP1020)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT484",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV LAPTOP 10 (DSV-LAP-595) to Pravallika Lingala (EMP1020)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Oct 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT485",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-596) to Praveen Kumar Gudiboina (EMP1177)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT486",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/179 (DSV-LAP-597) to Praveen Kumar Gudiboina (EMP1177)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "31 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT487",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/69 (DSV-LAP-598) to Preety Verma (EMP1188)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT488",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-599) to Prem Sagar Bhooma (EMP1345)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT489",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-600) to Krishnaiah Dodda (EMP_RET_600)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Apr 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT490",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Thinkpad (QITS-LAP-600) from Krishnaiah Dodda",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46142, 04:30 PM"
+  },
+  {
+    "id": "ACT491",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-600) to Prem Shekar Rapaka (EMP1390)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "04 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT492",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-601) to Prem Shekar Rapaka (EMP1390)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT493",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-602) to Prem Shekar Rapaka (EMP1390)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT494",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-603) to Prgathi podugu (EMP1305)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT495",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-604) to Priyanka Palli (EMP1021)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT496",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/16 (DSV-LAP-605) to Priyanka Vankayala (EMP1150)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jan 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT497",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/56 (DSV-LAP-606) to Pulakhandam Ramya (EMP1286)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 Feb 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT498",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 78 (DSV-LAP-607) to Puneeth Umapathi (EMP1120)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT499",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop DSV Laptop 78 (DSV-LAP-607) from Puneeth Umapathi",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT500",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-608) to Puneeth Umapathi (EMP1120)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT501",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop QIS/DSV (DSV-LAP-608) from Puneeth Umapathi",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT502",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-609) to Puram Soujanya (EMP1297)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT503",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (DSV-LAP-610) to Puram Soujanya (EMP1297)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT504",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSV Ykey 21 (DSV-TOK-611) to Puram Soujanya (EMP1297)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT505",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Airtel Postpaid Airtel Sim (ECO-SIM-612) to Purnachandra Rao Jakkula (EMP6003)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT506",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/32 (DSV-LAP-613) to Puttigampala Aswani (EMP1139)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jun 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT507",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSVYKey2 (DSV-TOK-614) to Puttigampala Aswani (EMP1139)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT508",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset DSV Headset 2 (DSV-HDST-615) to Puttigampala Aswani (EMP1139)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT509",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 67 (DSV-LAP-616) to Rabin Kumar Rai (EMP9021)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Mar 2022, 09:30 AM"
+  },
+  {
+    "id": "ACT510",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/18 (DSV-LAP-617) to Radhika V P (EMP1145)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jan 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT511",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset EPOS Sennheiser PC 8 Over-Ear USB (QITS-HDST-618) to Raghavender Rao Munugala (EMP1121)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "27 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT512",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-619) to Raghavender Rao Munugala (EMP1121)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT513",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-620) to Raghavender Rao Munugala (EMP1121)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Jul 2019, 09:30 AM"
+  },
+  {
+    "id": "ACT514",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset EPOS (QITS-HDST-621) to Ragunath Kumar Thanasekaran (EMP1312)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "27 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT515",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/178 (DSV-LAP-622) to Ragunath Kumar Thanasekaran (EMP1312)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jan 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT516",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-623) to Rahila Talupula (EMP1307)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT517",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/142 (DSV-LAP-624) to Rahila Talupula (EMP1307)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "29 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT518",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-625) to Rahimuddin Shaik (EMP1189)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT519",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/79 (DSV-LAP-626) to Rahimuddin Shaik (EMP1189)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT520",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-627) to Rahul Gundluru (EMP1344)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT521",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-628) to Rahul Gundluru (EMP1344)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT522",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-629) to Rahul Gundluru (EMP1344)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT523",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-630) to Rahul Raju Neelakantam (EMP1208)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT524",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/100 (DSV-LAP-631) to Rahul Raju Neelakantam (EMP1208)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "21 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT525",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/66 (DSV-LAP-632) to Rahul S (EMP1187)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT526",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset DSV Headset 9 (DSV-HDST-633) to Raja Muthukrishnan Pichai (EMP1375)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT527",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-634) to Raja Muthukrishnan Pichai (EMP1375)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT528",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-635) to Rajam Raju Penmetsa (EMP1306)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT529",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/139 (DSV-LAP-636) to Rajam Raju Penmetsa (EMP1306)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 Jul 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT530",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-637) to Rajat Biswas (EMP1356)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT531",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-638) to Rajesh Medisetti (EMP1419)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT532",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Bluetooth mouse (QITS-MOU-639) to Rajesh Medisetti (EMP1419)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT533",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora 5 _ HP EliteBook 840 G10 (QITS-LAP-640) to Ram Prasad (EMP_RET_640)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT534",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Encora 5 _ HP EliteBook 840 G10 (QITS-LAP-640) from Ram Prasad",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT535",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora 5 _ HP EliteBook 840 G10 (QITS-LAP-640) to Rajeshswari Mitra (EMP1352)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "28 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT536",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wired Mouse (QITS-MOU-641) to Rajeshswari Mitra (EMP1352)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "24 Sep 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT537",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-642) to Rajeswari Danda (EMP1035)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT538",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 48 (DSV-LAP-643) to Rajeswari Danda (EMP1035)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Oct 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT539",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Poly BlackWire 5220 USB-C/A Headset (QITS-HDST-644) to Raju Mamindlapelli (EMP1202)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT540",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/39 (DSV-LAP-645) to Raju Mamindlapelli (EMP1202)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "14 Feb 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT541",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSVYKey8 (DSV-TOK-646) to Raju Mamindlapelli (EMP1202)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT542",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mic(Studio) Wirless Micro Phoone (TRB-CAM-647) to Rakesh (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT543",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mic(Studio) Wirless Micro Phoone (TRB-CAM-648) to Rakesh (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT544",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mic(Studio) Wirless Micro Phoone (TRB-CAM-649) to Rakesh (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT545",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Think pad (QITS-LAP-650) to Venkata Chalamana gupta Pulavarthi (EMP_RET_650)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT546",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Think pad (QITS-LAP-650) from Venkata Chalamana gupta Pulavarthi",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46090, 04:30 PM"
+  },
+  {
+    "id": "ACT547",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Think pad (QITS-LAP-650) to Rakesh Kannamala (EMP5043)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT548",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-651) to Rakesh Kannamala (EMP5043)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT549",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-652) to Rakesh Kore (EMP1399)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT550",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-653) to Rakesh Kore (EMP1399)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT551",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-654) to Rakesh Kore (EMP1399)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT552",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-655) to Rakesh Reddy Thathagari (EMP1398)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT553",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-656) to Rakesh Reddy Thathagari (EMP1398)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT554",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-657) to Rakesh Reddy Thathagari (EMP1398)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT555",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Encora 3 _ HP EliteBook840G10 (QITS-LAP-658) to Rakesh sudhagoni (EMP1364)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Dec 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT556",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-659) to Rakesh sudhagoni (EMP1364)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Aug 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT557",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Airtel Postpaid Aitrtel Sim (TRB-SIM-660) to Rakkesh kanamala (EMP5043)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT558",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mobile Phone Redmi 14c (TRB-AST-661) to Rakkesh Kanamala (EMP5043)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT559",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/41 (DSV-LAP-662) to Rama Krishna Pothyreddy (EMP1149)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "02 Jan 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT560",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/34 (DSV-LAP-663) to Rama Sai Venkata Brahmaji Devarapu (EMP1209)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jun 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT561",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSVYKey4 (DSV-TOK-664) to Rama Sai Venkata Brahmaji Devarapu (EMP1209)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT562",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset DSV Headset 1 (DSV-HDST-665) to Rama Sai Venkata Brahmaji Devarapu (EMP1209)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT563",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/3 (DSV-LAP-666) to Rama Sanjana (EMP1132)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "21 Nov 2024, 09:30 AM"
+  },
+  {
+    "id": "ACT564",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-667) to Ramachandra Raju Mudunuri (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT565",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop PG (DSV-LAP-668) to Ramachandra Raju Mudunuri (EMP000)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT566",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop HP (QITS-LAP-669) to Dinesh (1350) (EMP_RET_669)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT567",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop HP (QITS-LAP-669) from Dinesh (1350)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT568",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop HP (QITS-LAP-669) to Ramadevi.dodda (EMP6001)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT569",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Airtel Postpaid Airtel Sim (ECO-SIM-670) to Ramadevi.dodda (EMP6001)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT570",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mobile Phone Redmi 14c (ECO-AST-671) to Ramadevi.dodda (EMP6001)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT571",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-672) to Nagireddy Guduru (EMP1359)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "31 Oct 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT572",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-672) from Nagireddy Guduru",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "12_nov, 04:30 PM"
+  },
+  {
+    "id": "ACT573",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-672) to Ramadevi.dodda (EMP6001)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "14 Nov 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT574",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Airtel Postpaid Aitrtel Sim (ECO-SIM-673) to Ramadevi.dodda (EMP6001)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT575",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-674) to Tagarampudi Sai Saranya (EMP_RET_674)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT576",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo E14 G5 (TRB-LAP-674) from Tagarampudi Sai Saranya",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46387, 04:30 PM"
+  },
+  {
+    "id": "ACT577",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (TRB-LAP-674) to Ramakrishna Undavalli (EMP1362)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT578",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech B 170 (QITS-MOU-675) to Arige Pranay Kumar (EMP_RET_675)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT579",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Mouse Logitech B 170 (QITS-MOU-675) from Arige Pranay Kumar",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46375, 04:30 PM"
+  },
+  {
+    "id": "ACT580",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech B 170 (QITS-MOU-675) to Ramakrishna Undavalli (EMP1362)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT581",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-676) to Ramakrishna Undavalli (EMP1362)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT582",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-677) to Ramakrishna Undavalli (EMP1362)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT583",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (QITS-LAP-678) to Chaitanya Sri Narisetti (EMP1178)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT584",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo E14 G5 (QITS-LAP-678) from Chaitanya Sri Narisetti",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT585",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo E14 G5 (QITS-LAP-678) to Ramdas Govinda Jadhav (EMP1415)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT586",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-679) to Ayushi Sharma (EMP_RET_679)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT587",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-679) from Ayushi Sharma",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "46135, 04:30 PM"
+  },
+  {
+    "id": "ACT588",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-679) to Ramdas Govinda Jadhav (EMP1415)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "04 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT589",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-680) to Ramdas Govinda Jadhav (EMP1415)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT590",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-681) to Ramesh Badige Narasappa (EMP1421)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT591",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-682) to Ramesh Badige Narasappa (EMP1421)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT592",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-683) to Ramesh Badige Narasappa (EMP1421)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT593",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-684) to Rammohana Rao Vamala (EMP1164)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT594",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/52 (DSV-LAP-685) to Rammohana Rao Vamala (EMP1164)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "18 Feb 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT595",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Pamtoken DSVYKey9 (DSV-TOK-686) to Rammohana Rao Vamala (EMP1164)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT596",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-687) to Rangareddy Tirupati (EMP1024)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT597",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV LAPTOP 15 (DSV-LAP-688) to Rangareddy Tirupati (EMP1024)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Oct 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT598",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-689) to Ranjith Kumar Guddeti (EMP1213)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT599",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/115 (DSV-LAP-690) to Ranjith Kumar Guddeti (EMP1213)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Mar 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT600",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV Laptop 71 (DSV-LAP-691) to Ravi Kiran Achalla (EMP9002)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "17 Aug 2017, 09:30 AM"
+  },
+  {
+    "id": "ACT601",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop DSV LAPTOP 8 (DSV-LAP-692) to Ravi Kiran Achalla (EMP9002)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jun 2023, 09:30 AM"
+  },
+  {
+    "id": "ACT602",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-693) to Ravi Kumar Ponnala (EMP1077)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT603",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Logitech B 170 (QITS-MOU-694) to Ravi kumar Ponnala (EMP1368)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jul 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT604",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop - (DSV-LAP-695) to Ravi Kumar Ponnala (EMPin office)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "19 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT605",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-696) to Lakshman Kumar Korapati (EMP1337)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Jun 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT606",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-696) from Lakshman Kumar Korapati",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT607",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-696) to Ravisankar Nataraj (EMP1413)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "10 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT608",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-697) to Ravisankar Nataraj (EMP1413)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "22 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT609",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-698) to Ravisankar Nataraj (EMP1413)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT610",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-699) to Raviteja Ketheneni (EMP1372)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "25 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT611",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/180 (DSV-LAP-700) to Raviteja Kethineni (EMP1372)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT612",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad (DSV-LAP-701) to Reethika Diwakar (EMP1387)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Apr 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT613",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-702) to Lokeswar Velamuri (EMP1096)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "26 Jul 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT614",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Laptop Lenovo Thinkpad (QITS-LAP-702) from Lokeswar Velamuri",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "20 May 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT615",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo Thinkpad (QITS-LAP-702) to Reshma Ramya Sree Gollamudi (EMP1420)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "01 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT616",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-703) to Reshma Ramya Sree Gollamudi (EMP1420)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT617",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-704) to Reshma Ramya Sree Gollamudi (EMP1420)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "06 Jan 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT618",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Airtel Postpaid Airtel Sim (ECO-SIM-705) to Riaz (EMP6005)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT619",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Airtel Postpaid Aitrtel Sim (ECO-SIM-706) to Riaz (EMP6005)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "08 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT620",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV (DSV-LAP-707) to Richa (EMP1417)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 Mar 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT621",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop Lenovo ThinkPad  16GB DDr5 (QITS-LAP-708) to Risheendra Phani Varma.Battu (EMP1397)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT622",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-709) to Risheendra Phani Varma.Battu (EMP1397)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "13 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT623",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Mouse Wireless Mouse_Bluetooth (QITS-MOU-710) to Risheendra Phani Varma.Battu (EMP1397)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "11 May 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT624",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS USB C/A Adapter (QITS-HDST-711) to Rohith Gudipudi (EMP1331)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Oct 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT625",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/190 (DSV-LAP-712) to Rohith Gudipudi (EMP1331)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "09 Jan 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT626",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-713) to Shalu yadav (EMP_RET_713)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "31 Oct 2026, 10:00 AM"
+  },
+  {
+    "id": "ACT627",
+    "user": "Rakesh Reddy",
+    "activity": "Return Asset",
+    "details": "Returned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-713) from Shalu yadav",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "15 Jun 2026, 04:30 PM"
+  },
+  {
+    "id": "ACT628",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-713) to Roshan Chandrakant Kothare (EMP1245)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "16 Feb 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT629",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/143 (DSV-LAP-714) to Roshan Chandrakant Kothare (EMP1245)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "05 May 2025, 09:30 AM"
+  },
+  {
+    "id": "ACT630",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Headset Jabra Evolve 30 II Stereo MS (USB-A) (QITS-HDST-715) to Rounak Kumar (EMP1181)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "30 Jun 2026, 09:30 AM"
+  },
+  {
+    "id": "ACT631",
+    "user": "Rakesh Reddy",
+    "activity": "Assign Asset",
+    "details": "Assigned Laptop QIS/DSV/2024-25/62 (DSV-LAP-716) to Rounak Kumar (EMP1181)",
+    "ipAddress": "192.168.1.10",
+    "dateTime": "03 Mar 2025, 09:30 AM"
+  }
+]

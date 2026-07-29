@@ -1,0 +1,42 @@
+[
+  {
+    "id": "NT001",
+    "title": "New Asset Assigned",
+    "message": "Dell Latitude 5440 (LT0001) has been assigned to Rakesh Reddy.",
+    "time": "10 mins ago",
+    "read": false,
+    "type": "info"
+  },
+  {
+    "id": "NT002",
+    "title": "Low Stock Alert",
+    "message": "Available Keyboard inventory is below the minimum threshold (5 remaining).",
+    "time": "1 hour ago",
+    "read": false,
+    "type": "warning"
+  },
+  {
+    "id": "NT003",
+    "title": "Repair Completed",
+    "message": "Dell P2419H (MN0001) repair request REP00026 has been marked as completed.",
+    "time": "5 hours ago",
+    "read": true,
+    "type": "success"
+  },
+  {
+    "id": "NT004",
+    "title": "Warranty Expiry Warning",
+    "message": "Warranty for 12 Logitech Mouse devices expires in 30 days.",
+    "time": "1 day ago",
+    "read": true,
+    "type": "alert"
+  },
+  {
+    "id": "NT005",
+    "title": "High Temperature Warning",
+    "message": "Server Rack A2 Core Switch reports high operating temperature.",
+    "time": "2 days ago",
+    "read": true,
+    "type": "alert"
+  }
+]

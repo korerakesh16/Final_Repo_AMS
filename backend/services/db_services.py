@@ -1,0 +1,671 @@
+from sqlalchemy.orm import Session
+from sqlalchemy import text
+from datetime import datetime, timedelta
+import json
+from models import Employee, Asset, Category, License, Repair, RepairUpdate, Announcement, Guideline, Notification, ActivityLog
+from services.auth_service import get_password_hash
+
+# --- UTILITIES: ACTIVITY LOGS & NOTIFICATIONS ---
+
+def log_activity(db: Session, user: str, activity: str, details: str, ip_address: str = "192.168.1.10"):
+    now_str = datetime.now().strftime("%d %b %Y, %I:%M %p")
+    # Generate unique ID
+    count = db.execute(text("SELECT COUNT(*) FROM activity_log")).scalar()
+    act_id = f"ACT{str(count + 1).zfill(3)}"
+    
+    query = text("""
+        INSERT INTO activity_log (id, "user", activity, details, ip_address, date_time)
+        VALUES (:id, :user, :activity, :details, :ip_address, :date_time)
+    """)
+    db.execute(query, {
+        "id": act_id,
+        "user": user,
+        "activity": activity,
+        "details": details,
+        "ip_address": ip_address,
+        "date_time": now_str
+    })
+    db.commit()
+
+def create_notification(db: Session, title: str, message: str, notif_type: str, employee_id: str = None):
+    # Generate unique ID
+    count = db.execute(text("SELECT COUNT(*) FROM notifications")).scalar()
+    notif_id = f"NT{str(count + 1).zfill(3)}"
+    
+    query = text("""
+        INSERT INTO notifications (id, title, message, time, read, type, employee_id)
+        VALUES (:id, :title, :message, :time, :read, :type, :employee_id)
+    """)
+    db.execute(query, {
+        "id": notif_id,
+        "title": title,
+        "message": message,
+        "time": "Just now",
+        "read": False,
+        "type": notif_type,
+        "employee_id": employee_id
+    })
+    db.commit()
+
+
+# --- EMPLOYEE SERVICES ---
+
+def get_employees(db: Session, search: str = None, department: str = None, status: str = None):
+    sql = "SELECT * FROM employees WHERE 1=1"
+    params = {}
+    if search:
+        sql += " AND (id ILIKE :search OR name ILIKE :search OR email ILIKE :search OR department ILIKE :search)"
+        params["search"] = f"%{search}%"
+    if department and department != "All":
+        sql += " AND department = :department"
+        params["department"] = department
+    if status and status != "All":
+        sql += " AND status = :status"
+        params["status"] = status
+    sql += " ORDER BY id"
+    return db.execute(text(sql), params).all()
+
+def get_employee_by_id(db: Session, emp_id: str):
+    sql = "SELECT * FROM employees WHERE id = :id"
+    return db.execute(text(sql), {"id": emp_id}).first()
+
+def get_employee_by_username_or_email(db: Session, login_name: str):
+    sql = "SELECT * FROM employees WHERE email = :login OR username = :login OR name = :login OR id = :login"
+    return db.execute(text(sql), {"login": login_name}).first()
+
+def create_employee(db: Session, emp_data: dict, operator_name: str):
+    emp_id = emp_data["id"].strip().upper()
+    hashed = get_password_hash(emp_data.get("password") or "employee123")
+    
+    query = text("""
+        INSERT INTO employees (id, name, department, designation, email, username, phone, status, role, avatar, joining_date, location, password_hash)
+        VALUES (:id, :name, :department, :designation, :email, :username, :phone, :status, :role, :avatar, :joining_date, :location, :password_hash)
+    """)
+    db.execute(query, {
+        "id": emp_id,
+        "name": emp_data["name"],
+        "department": emp_data["department"],
+        "designation": emp_data["designation"],
+        "email": emp_data["email"],
+        "username": emp_data.get("username") or emp_data["email"].split('@')[0],
+        "phone": emp_data.get("phone"),
+        "status": emp_data.get("status") or "Active",
+        "role": emp_data.get("role") or "Employee",
+        "avatar": emp_data.get("avatar") or "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop&crop=faces",
+        "joining_date": emp_data.get("joining_date") or datetime.now().strftime("%d %b %Y"),
+        "location": emp_data.get("location") or "Hyderabad, India",
+        "password_hash": hashed
+    })
+    db.commit()
+    log_activity(db, operator_name, "Add Employee", f"Added new employee {emp_data['name']} ({emp_id})")
+    return get_employee_by_id(db, emp_id)
+
+def update_employee(db: Session, emp_id: str, emp_data: dict, operator_name: str):
+    sql = "UPDATE employees SET "
+    updates = []
+    params = {"id": emp_id}
+    
+    for key, value in emp_data.items():
+        if key in ["name", "department", "designation", "email", "username", "phone", "status", "role", "avatar", "joining_date", "location"]:
+            updates.append(f"{key} = :{key}")
+            params[key] = value
+            
+    sql += ", ".join(updates) + " WHERE id = :id"
+    db.execute(text(sql), params)
+    db.commit()
+    
+    log_activity(db, operator_name, "Update Employee", f"Updated employee profile for {emp_data.get('name') or emp_id}")
+    return get_employee_by_id(db, emp_id)
+
+def delete_employee(db: Session, emp_id: str, operator_name: str):
+    employee = get_employee_by_id(db, emp_id)
+    if employee:
+        db.execute(text("DELETE FROM employees WHERE id = :id"), {"id": emp_id})
+        db.commit()
+        log_activity(db, operator_name, "Delete Employee", f"Deleted employee {emp_id}")
+        return True
+    return False
+
+def change_employee_password(db: Session, emp_id: str, new_password: str):
+    hashed = get_password_hash(new_password)
+    db.execute(text("UPDATE employees SET password_hash = :hash WHERE id = :id"), {"hash": hashed, "id": emp_id})
+    db.commit()
+
+
+# --- CATEGORY SERVICES ---
+
+def get_categories(db: Session):
+    return db.execute(text("SELECT * FROM categories ORDER BY id")).all()
+
+def create_category(db: Session, cat_data: dict, operator_name: str):
+    query = text("""
+        INSERT INTO categories (id, name, description, icon_name, "group", scope, owner_entity)
+        VALUES (:id, :name, :description, :icon_name, :group, :scope, :owner_entity)
+    """)
+    db.execute(query, {
+        "id": cat_data["id"],
+        "name": cat_data["name"],
+        "description": cat_data.get("description"),
+        "icon_name": cat_data.get("icon_name"),
+        "group": cat_data["group"],
+        "scope": cat_data["scope"],
+        "owner_entity": cat_data["owner_entity"]
+    })
+    db.commit()
+    log_activity(db, operator_name, "Add Category", f"Added new asset category {cat_data['name']}")
+    return db.execute(text("SELECT * FROM categories WHERE id = :id"), {"id": cat_data["id"]}).first()
+
+def update_category(db: Session, cat_id: str, cat_data: dict, operator_name: str):
+    sql = "UPDATE categories SET "
+    updates = []
+    params = {"id": cat_id}
+    for key, val in cat_data.items():
+        if key in ["name", "description", "icon_name", "group", "scope", "owner_entity"]:
+            updates.append(f'"{key}" = :{key}' if key == 'group' else f"{key} = :{key}")
+            params[key] = val
+    sql += ", ".join(updates) + " WHERE id = :id"
+    db.execute(text(sql), params)
+    db.commit()
+    log_activity(db, operator_name, "Update Category", f"Updated category {cat_data.get('name') or cat_id}")
+    return db.execute(text("SELECT * FROM categories WHERE id = :id"), {"id": cat_id}).first()
+
+def delete_category(db: Session, cat_id: str, operator_name: str):
+    category = db.execute(text("SELECT * FROM categories WHERE id = :id"), {"id": cat_id}).first()
+    if category:
+        db.execute(text("DELETE FROM categories WHERE id = :id"), {"id": cat_id})
+        db.commit()
+        log_activity(db, operator_name, "Delete Category", f"Deleted asset category {category.name}")
+        return True
+    return False
+
+
+# --- ASSET SERVICES ---
+
+def get_assets(db: Session, search: str = None, type_filter: str = None, scope_filter: str = None):
+    sql = "SELECT * FROM assets WHERE type != 'Desktop'"
+    params = {}
+    if search:
+        sql += " AND (id ILIKE :search OR brand ILIKE :search OR model ILIKE :search OR serial_number ILIKE :search)"
+        params["search"] = f"%{search}%"
+    if type_filter and type_filter != "All":
+        sql += " AND type = :type"
+        params["type"] = type_filter
+    if scope_filter and scope_filter != "All":
+        if scope_filter == "Assigned":
+            sql += " AND status = 'Assigned'"
+        else:
+            sql += " AND status != 'Assigned'"
+            
+    sql += " ORDER BY id"
+    return db.execute(text(sql), params).all()
+
+def get_asset_by_id(db: Session, asset_id: str):
+    return db.execute(text("SELECT * FROM assets WHERE id = :id"), {"id": asset_id}).first()
+
+def create_asset(db: Session, asset_data: dict, operator_name: str):
+    query = text("""
+        INSERT INTO assets (id, type, brand, model, serial_number, status, ownership, "group", charger_serial_number, condition, assigned_to, purchase_date, warranty_end_date, assigned_date, assigned_at, image)
+        VALUES (:id, :type, :brand, :model, :serial_number, :status, :ownership, :group, :charger_serial_number, :condition, :assigned_to, :purchase_date, :warranty_end_date, :assigned_date, :assigned_at, :image)
+    """)
+    db.execute(query, {
+        "id": asset_data["id"],
+        "type": asset_data["type"],
+        "brand": asset_data["brand"],
+        "model": asset_data["model"],
+        "serial_number": asset_data["serial_number"],
+        "status": asset_data.get("status") or "Available",
+        "ownership": asset_data.get("ownership") or "Quadrant IT Services",
+        "group": asset_data.get("group") or "IT",
+        "charger_serial_number": asset_data.get("charger_serial_number") or "N/A",
+        "condition": asset_data.get("condition") or "Good",
+        "assigned_to": asset_data.get("assigned_to"),
+        "purchase_date": asset_data.get("purchase_date") or datetime.now().strftime("%d %b %Y"),
+        "warranty_end_date": asset_data.get("warranty_end_date") or (datetime.now() + timedelta(days=3*365)).strftime("%d %b %Y"),
+        "assigned_date": asset_data.get("assigned_date") or "N/A",
+        "assigned_at": asset_data.get("assigned_at"),
+        "image": asset_data.get("image") or "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=80&h=80&fit=crop"
+    })
+    db.commit()
+    log_activity(db, operator_name, "Add Asset", f"Added new asset {asset_data['brand']} {asset_data['model']} ({asset_data['id']})")
+    return get_asset_by_id(db, asset_data["id"])
+
+def update_asset(db: Session, asset_id: str, asset_data: dict, operator_name: str):
+    sql = "UPDATE assets SET "
+    updates = []
+    params = {"id": asset_id}
+    for key, val in asset_data.items():
+        if key in ["type", "brand", "model", "serial_number", "status", "ownership", "group", "charger_serial_number", "condition", "assigned_to", "purchase_date", "warranty_end_date", "assigned_date", "assigned_at", "image"]:
+            updates.append(f'"{key}" = :{key}' if key == 'group' else f"{key} = :{key}")
+            params[key] = val
+    sql += ", ".join(updates) + " WHERE id = :id"
+    db.execute(text(sql), params)
+    db.commit()
+    log_activity(db, operator_name, "Update Asset", f"Updated asset details for {asset_id}")
+    return get_asset_by_id(db, asset_id)
+
+def delete_asset(db: Session, asset_id: str, operator_name: str):
+    asset = get_asset_by_id(db, asset_id)
+    if asset:
+        db.execute(text("DELETE FROM assets WHERE id = :id"), {"id": asset_id})
+        db.commit()
+        log_activity(db, operator_name, "Delete Asset", f"Deleted asset {asset_id}")
+        return True
+    return False
+
+def assign_assets_service(db: Session, emp_id: str, asset_ids: list, assign_date: str, remarks: str, operator_name: str):
+    employee = get_employee_by_id(db, emp_id)
+    if not employee:
+        return False
+        
+    now_iso = datetime.utcnow()
+    date_formatted = datetime.strptime(assign_date, "%Y-%m-%d").strftime("%d %b %Y") if assign_date else datetime.now().strftime("%d %b %Y")
+    
+    for aid in asset_ids:
+        db.execute(text("""
+            UPDATE assets 
+            SET status = 'Assigned', assigned_to = :emp_id, assigned_date = :assign_date, assigned_at = :assigned_at 
+            WHERE id = :id
+        """), {
+            "emp_id": emp_id,
+            "assign_date": date_formatted,
+            "assigned_at": now_iso,
+            "id": aid
+        })
+        log_activity(db, operator_name, "Assign Asset", f"Assigned asset {aid} to {employee.name} ({emp_id})")
+        
+    db.commit()
+    create_notification(db, "Assets Assigned", f"{len(asset_ids)} assets successfully assigned to {employee.name}.", "info")
+    return True
+
+def return_assets_service(db: Session, emp_id: str, asset_ids: list, return_date: str, return_condition: str, remarks: str, operator_name: str):
+    employee = get_employee_by_id(db, emp_id)
+    if not employee:
+        return False
+        
+    next_status = "Under Repair" if return_condition in ["Under Repair", "Damaged"] else "Available"
+    
+    for aid in asset_ids:
+        db.execute(text("""
+            UPDATE assets 
+            SET status = :status, assigned_to = NULL, assigned_date = 'N/A', assigned_at = NULL 
+            WHERE id = :id
+        """), {
+            "status": next_status,
+            "id": aid
+        })
+        log_activity(db, operator_name, "Return Asset", f"Returned asset {aid} from {employee.name} (Condition: {return_condition})")
+        
+        if next_status == "Under Repair":
+            # Generate repair ticket
+            count = db.execute(text("SELECT COUNT(*) FROM repairs")).scalar()
+            rep_id = f"REP{str(count + 1).zfill(5)}"
+            req_date = datetime.now().strftime("%d %b %Y %I:%M %p")
+            
+            db.execute(text("""
+                INSERT INTO repairs (id, asset_id, reported_by, issue, description, request_date, priority, assigned_to, estimated_completion, status)
+                VALUES (:id, :asset_id, :reported_by, :issue, :description, :request_date, :priority, :assigned_to, :est_completion, :status)
+            """), {
+                "id": rep_id,
+                "asset_id": aid,
+                "reported_by": emp_id,
+                "issue": f"Returned in {return_condition} condition. {remarks or ''}",
+                "description": f"Asset returned in {return_condition} condition by employee. Remarks: {remarks or 'None'}",
+                "request_date": req_date,
+                "priority": "Medium",
+                "assigned_to": "IT Support Team",
+                "est_completion": "Awaiting inspection",
+                "status": "In Progress"
+            })
+            
+            # Insert first update
+            db.execute(text("""
+                INSERT INTO repair_updates (repair_id, date, message)
+                VALUES (:rep_id, :date, :message)
+            """), {
+                "rep_id": rep_id,
+                "date": req_date,
+                "message": f"Repair request generated on return by {employee.name}."
+            })
+            
+            log_activity(db, operator_name, "Create Repair", f"Generated repair request {rep_id} for returned asset {aid}")
+
+    db.commit()
+    create_notification(db, "Assets Returned", f"{len(asset_ids)} assets successfully returned by {employee.name}.", "success")
+    return True
+
+
+# --- LICENSE SERVICES ---
+
+def get_licenses(db: Session):
+    return db.execute(text("SELECT * FROM licenses ORDER BY id")).all()
+
+def get_license_by_id(db: Session, lic_id: str):
+    return db.execute(text("SELECT * FROM licenses WHERE id = :id"), {"id": lic_id}).first()
+
+def create_license(db: Session, lic_data: dict, operator_name: str):
+    count = db.execute(text("SELECT COUNT(*) FROM licenses")).scalar()
+    lic_id = lic_data.get("id") or f"LIC{str(count + 1).zfill(3)}"
+    
+    query = text("""
+        INSERT INTO licenses (id, name, status, vendor, license_key, seats, cost, start_date, end_date, alert_days_before, admin_email, description)
+        VALUES (:id, :name, :status, :vendor, :license_key, :seats, :cost, :start_date, :end_date, :alert_days_before, :admin_email, :description)
+    """)
+    db.execute(query, {
+        "id": lic_id,
+        "name": lic_data["name"],
+        "status": lic_data.get("status") or "Available",
+        "vendor": lic_data.get("vendor") or "Subscription",
+        "license_key": lic_data.get("license_key") or "N/A",
+        "seats": lic_data.get("seats") or 1,
+        "cost": lic_data.get("cost") or "N/A",
+        "start_date": lic_data.get("start_date") or datetime.now().strftime("%d %b %Y"),
+        "end_date": lic_data["end_date"],
+        "alert_days_before": lic_data.get("alert_days_before") or 30,
+        "admin_email": lic_data["admin_email"],
+        "description": lic_data.get("description")
+    })
+    db.commit()
+    log_activity(db, operator_name, "Add License", f"Added new software license: {lic_data['name']}")
+    return get_license_by_id(db, lic_id)
+
+def update_license(db: Session, lic_id: str, lic_data: dict, operator_name: str):
+    sql = "UPDATE licenses SET "
+    updates = []
+    params = {"id": lic_id}
+    for key, val in lic_data.items():
+        if key in ["name", "status", "vendor", "license_key", "seats", "cost", "start_date", "end_date", "alert_days_before", "admin_email", "description"]:
+            updates.append(f"{key} = :{key}")
+            params[key] = val
+    sql += ", ".join(updates) + " WHERE id = :id"
+    db.execute(text(sql), params)
+    db.commit()
+    log_activity(db, operator_name, "Update License", f"Updated software license: {lic_data.get('name') or lic_id}")
+    return get_license_by_id(db, lic_id)
+
+def delete_license(db: Session, lic_id: str, operator_name: str):
+    license = get_license_by_id(db, lic_id)
+    if license:
+        db.execute(text("DELETE FROM licenses WHERE id = :id"), {"id": lic_id})
+        db.commit()
+        log_activity(db, operator_name, "Delete License", f"Deleted software license: {license.name}")
+        return True
+    return False
+
+
+# --- REPAIR / TICKET SERVICES ---
+
+def get_repairs(db: Session, reported_by: str = None):
+    sql = "SELECT * FROM repairs"
+    params = {}
+    if reported_by:
+        sql += " WHERE reported_by = :reported_by"
+        params["reported_by"] = reported_by
+    sql += " ORDER BY id DESC"
+    return db.execute(text(sql), params).all()
+
+def get_repair_by_id(db: Session, rep_id: str):
+    return db.execute(text("SELECT * FROM repairs WHERE id = :id"), {"id": rep_id}).first()
+
+def get_repair_updates(db: Session, rep_id: str):
+    return db.execute(text("SELECT * FROM repair_updates WHERE repair_id = :rep_id ORDER BY id"), {"rep_id": rep_id}).all()
+
+def create_repair(db: Session, rep_data: dict, operator_name: str):
+    count = db.execute(text("SELECT COUNT(*) FROM repairs")).scalar()
+    n = count + 1
+    while True:
+        rep_id = f"TKT{str(n).zfill(4)}"
+        exists = db.execute(text("SELECT id FROM repairs WHERE id = :id"), {"id": rep_id}).first()
+        if not exists:
+            break
+        n += 1
+    req_date = datetime.now().strftime("%d %b %Y, %I:%M %p")
+    
+    db.execute(text("""
+        INSERT INTO repairs (id, asset_id, reported_by, issue, description, request_date, priority, assigned_to, estimated_completion, status)
+        VALUES (:id, :asset_id, :reported_by, :issue, :description, :request_date, :priority, :assigned_to, :est_completion, :status)
+    """), {
+        "id": rep_id,
+        "asset_id": rep_data["asset_id"],
+        "reported_by": rep_data["reported_by"],
+        "issue": rep_data["issue"],
+        "description": rep_data.get("description") or f"Reported fault: {rep_data['issue']}",
+        "request_date": req_date,
+        "priority": rep_data.get("priority") or "Medium",
+        "assigned_to": rep_data.get("assigned_to") or "IT Support Team",
+        "est_completion": rep_data.get("estimated_completion") or "Awaiting inspection",
+        "status": "In Progress"
+    })
+    
+    # Insert first update
+    db.execute(text("""
+        INSERT INTO repair_updates (repair_id, date, message)
+        VALUES (:rep_id, :date, :message)
+    """), {
+        "rep_id": rep_id,
+        "date": req_date,
+        "message": "Repair request created."
+    })
+    
+    # Update asset status to Under Repair
+    db.execute(text("UPDATE assets SET status = 'Under Repair' WHERE id = :asset_id"), {"asset_id": rep_data["asset_id"]})
+    
+    db.commit()
+    log_activity(db, operator_name, "Create Repair", f"Created repair request {rep_id} for asset {rep_data['asset_id']}")
+    create_notification(
+        db,
+        "New Support Ticket Raised",
+        f"Ticket {rep_id} raised by {operator_name} for asset {rep_data['asset_id']}: '{rep_data['issue']}'",
+        "warning",
+        None
+    )
+    return get_repair_by_id(db, rep_id)
+
+def add_repair_update_service(db: Session, rep_id: str, status: str, message: str, operator_name: str):
+    repair = get_repair_by_id(db, rep_id)
+    if not repair:
+        return False
+        
+    now_str = datetime.now().strftime("%d %b %Y, %I:%M %p")
+    
+    # Insert update
+    db.execute(text("""
+        INSERT INTO repair_updates (repair_id, date, message)
+        VALUES (:rep_id, :date, :message)
+    """), {
+        "rep_id": rep_id,
+        "date": now_str,
+        "message": message
+    })
+    
+    # Update status
+    db.execute(text("UPDATE repairs SET status = :status WHERE id = :id"), {"status": status, "id": rep_id})
+    
+    # If completed or cancelled, make asset available again
+    if status in ["Completed", "Cancelled"]:
+        db.execute(text("UPDATE assets SET status = 'Available' WHERE id = :asset_id"), {"asset_id": repair.asset_id})
+        log_activity(db, operator_name, f"Resolve/Cancel Repair", f"Status of repair request {rep_id} set to {status}")
+    else:
+        log_activity(db, operator_name, "Update Repair", f"Updated repair status of {rep_id} to {status}")
+        
+    db.commit()
+    if repair and repair.reported_by:
+        create_notification(
+            db,
+            f"Update on Repair Ticket {rep_id}",
+            f"Status: {status}. {message}",
+            "info" if status != "Completed" else "success",
+            repair.reported_by
+        )
+    return True
+
+def accept_repair_service(db: Session, rep_id: str, admin_name: str):
+    repair = get_repair_by_id(db, rep_id)
+    if not repair:
+        return False
+        
+    now_str = datetime.now().strftime("%d %b %Y, %I:%M %p")
+    
+    db.execute(text("""
+        UPDATE repairs 
+        SET accepted_by = :admin, accepted_date = :adate, assigned_to = :admin, status = 'In Progress'
+        WHERE id = :id
+    """), {
+        "admin": admin_name,
+        "adate": now_str,
+        "id": rep_id
+    })
+    
+    db.execute(text("""
+        INSERT INTO repair_updates (repair_id, date, message)
+        VALUES (:rep_id, :date, :message)
+    """), {
+        "rep_id": rep_id,
+        "date": now_str,
+        "message": f"Accepted by {admin_name} and assigned for resolution."
+    })
+    
+    db.execute(text("UPDATE assets SET status = 'Under Repair' WHERE id = :asset_id"), {"asset_id": repair.asset_id})
+    
+    db.commit()
+    log_activity(db, admin_name, "Accept Repair", f"Admin {admin_name} accepted repair ticket {rep_id}")
+    if repair and repair.reported_by:
+        create_notification(
+            db,
+            f"Repair Ticket {rep_id} Accepted",
+            f"Your repair ticket for asset {repair.asset_id} has been accepted by {admin_name}.",
+            "info",
+            repair.reported_by
+        )
+    return True
+
+def reject_repair_service(db: Session, rep_id: str, admin_name: str):
+    repair = get_repair_by_id(db, rep_id)
+    if not repair:
+        return False
+        
+    now_str = datetime.now().strftime("%d %b %Y, %I:%M %p")
+    
+    db.execute(text("UPDATE repairs SET status = 'Cancelled' WHERE id = :id"), {"id": rep_id})
+    
+    db.execute(text("""
+        INSERT INTO repair_updates (repair_id, date, message)
+        VALUES (:rep_id, :date, :message)
+    """), {
+        "rep_id": rep_id,
+        "date": now_str,
+        "message": f"Rejected / Cancelled by {admin_name}."
+    })
+    
+    db.execute(text("UPDATE assets SET status = 'Available' WHERE id = :asset_id"), {"asset_id": repair.asset_id})
+    
+    db.commit()
+    log_activity(db, admin_name, "Reject Repair", f"Admin {admin_name} rejected repair ticket {rep_id}")
+    if repair and repair.reported_by:
+        create_notification(
+            db,
+            f"Repair Ticket {rep_id} Cancelled",
+            f"Your repair ticket for asset {repair.asset_id} has been cancelled by {admin_name}.",
+            "danger",
+            repair.reported_by
+        )
+    return True
+
+
+# --- ANNOUNCEMENT SERVICES ---
+
+def get_announcements(db: Session):
+    return db.execute(text("SELECT * FROM announcements ORDER BY id DESC")).all()
+
+def create_announcement(db: Session, ann_data: dict, operator_name: str):
+    count = db.execute(text("SELECT COUNT(*) FROM announcements")).scalar()
+    ann_id = f"ANN{str(count + 1).zfill(3)}"
+    now_date = datetime.now().strftime("%d %b %Y")
+    
+    query = text("""
+        INSERT INTO announcements (id, title, message, date, author, type, priority)
+        VALUES (:id, :title, :message, :date, :author, :type, :priority)
+    """)
+    db.execute(query, {
+        "id": ann_id,
+        "title": ann_data["title"],
+        "message": ann_data["message"],
+        "date": now_date,
+        "author": operator_name,
+        "type": ann_data.get("type") or "General",
+        "priority": ann_data.get("priority") or "Medium"
+    })
+    db.commit()
+    log_activity(db, operator_name, "Post Announcement", f"Admin posted announcement: \"{ann_data['title']}\"")
+    return db.execute(text("SELECT * FROM announcements WHERE id = :id"), {"id": ann_id}).first()
+
+def delete_announcement(db: Session, ann_id: str, operator_name: str):
+    ann = db.execute(text("SELECT * FROM announcements WHERE id = :id"), {"id": ann_id}).first()
+    if ann:
+        db.execute(text("DELETE FROM announcements WHERE id = :id"), {"id": ann_id})
+        db.commit()
+        log_activity(db, operator_name, "Delete Announcement", f"Deleted announcement: \"{ann.title}\"")
+        return True
+    return False
+
+
+# --- GUIDELINE SERVICES ---
+
+def get_guideline(db: Session):
+    return db.execute(text("SELECT * FROM guidelines WHERE id = 'SYSTEM_GUIDELINE'")).first()
+
+def update_guideline(db: Session, guide_data: dict, operator_name: str):
+    current = get_guideline(db)
+    now_date = datetime.now().strftime("%d %b %Y")
+    
+    sql = "UPDATE guidelines SET uploaded_date = :u_date, "
+    updates = []
+    params = {"u_date": now_date}
+    
+    for key, val in guide_data.items():
+        if key in ["title", "version", "summary", "content", "file_name", "size", "download_url"]:
+            updates.append(f"{key} = :{key}")
+            params[key] = val
+            
+    sql += ", ".join(updates) + " WHERE id = 'SYSTEM_GUIDELINE'"
+    db.execute(text(sql), params)
+    db.commit()
+    log_activity(db, operator_name, "Update Guidelines PDF", f"Admin posted updated Asset Guidelines PDF")
+    return get_guideline(db)
+
+
+# --- NOTIFICATION SERVICES ---
+
+def get_notifications(db: Session, emp_id: str = None):
+    sql = "SELECT * FROM notifications WHERE employee_id IS NULL"
+    params = {}
+    if emp_id:
+        sql += " OR employee_id = :emp_id"
+        params["emp_id"] = emp_id
+    sql += " ORDER BY created_at DESC"
+    return db.execute(text(sql), params).all()
+
+def mark_notification_read(db: Session, notif_id: str):
+    db.execute(text("UPDATE notifications SET read = TRUE WHERE id = :id"), {"id": notif_id})
+    db.commit()
+
+def mark_all_notifications_read(db: Session, emp_id: str = None):
+    sql = "UPDATE notifications SET read = TRUE WHERE read = FALSE"
+    params = {}
+    if emp_id:
+        sql += " AND (employee_id = :emp_id OR employee_id IS NULL)"
+        params["emp_id"] = emp_id
+    db.execute(text(sql), params)
+    db.commit()
+
+
+# --- ACTIVITY LOG SERVICES ---
+
+def get_activities(db: Session, user_email: str = None, user_name: str = None):
+    sql = "SELECT * FROM activity_log"
+    params = {}
+    if user_email or user_name:
+        sql += " WHERE \"user\" = :email OR \"user\" = :name"
+        params["email"] = user_email
+        params["name"] = user_name
+    sql += " ORDER BY created_at DESC"
+    return db.execute(text(sql), params).all()
