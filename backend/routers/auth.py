@@ -132,7 +132,7 @@ def change_password(request: ChangePasswordRequest, current_user = Depends(get_c
     from sqlalchemy import text
     stored_hash = db.execute(text("SELECT password_hash FROM employees WHERE id = :id"), {"id": current_user.id}).scalar()
     
-    if not verify_password(request.current_password, stored_hash):
+    if not stored_hash or not verify_password(request.current_password, str(stored_hash)):
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Incorrect current password"

@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
 from database.connection import get_db
@@ -41,29 +41,30 @@ def list_repairs(current_user = Depends(get_current_user), db: Session = Depends
 
 @router.get("/{id}", response_model=RepairOut)
 def get_repair(id: str, current_user = Depends(get_current_user), db: Session = Depends(get_db)):
-    r = get_repair_by_id(db, id)
-    if not r:
+    repair = get_repair_by_id(db, id)
+    if not repair:
         raise HTTPException(status_code=404, detail="Repair ticket not found")
         
-    if current_user.role != "Admin" and r.reported_by != current_user.id:
+    # Check auth: Admin or reported_by
+    if current_user.role != "Admin" and repair.reported_by != current_user.id:
         raise HTTPException(status_code=403, detail="Not authorized to view this ticket")
         
-    updates = get_repair_updates(db, r.id)
+    updates = get_repair_updates(db, id)
     return {
-        "id": r.id,
-        "asset_id": r.asset_id,
-        "reported_by": r.reported_by,
-        "issue": r.issue,
-        "description": r.description,
-        "request_date": r.request_date,
-        "priority": r.priority,
-        "assigned_to": r.assigned_to,
-        "estimated_completion": r.estimated_completion,
-        "status": r.status,
-        "accepted_by": r.accepted_by,
-        "accepted_date": r.accepted_date,
+        "id": repair.id,
+        "asset_id": repair.asset_id,
+        "reported_by": repair.reported_by,
+        "issue": repair.issue,
+        "description": repair.description,
+        "request_date": repair.request_date,
+        "priority": repair.priority,
+        "assigned_to": repair.assigned_to,
+        "estimated_completion": repair.estimated_completion,
+        "status": repair.status,
+        "accepted_by": repair.accepted_by,
+        "accepted_date": repair.accepted_date,
         "updates": updates,
-        "created_at": r.created_at
+        "created_at": repair.created_at
     }
 
 @router.post("", response_model=RepairOut)
@@ -77,6 +78,8 @@ def add_repair(
         raise HTTPException(status_code=403, detail="Cannot file ticket on behalf of another employee")
         
     r = create_repair(db, payload.model_dump(), current_user.name)
+    if not r:
+        raise HTTPException(status_code=400, detail="Failed to create repair ticket")
     updates = get_repair_updates(db, r.id)
     return {
         "id": r.id,

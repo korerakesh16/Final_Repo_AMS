@@ -459,8 +459,8 @@ def seed_database(db: Session):
     # 7. Seed Licenses
     licenses_data = load_json("licenses.json")
     for idx, lic in enumerate(licenses_data):
+        lic_id = lic.get("id") or f"LIC{str(idx + 1).zfill(3)}"
         try:
-            lic_id = lic.get("id") or f"LIC{str(idx + 1).zfill(3)}"
             existing = db.execute(text("SELECT id FROM licenses WHERE id = :id"), {"id": lic_id}).first()
             if not existing:
                 db.execute(text("""
@@ -587,8 +587,8 @@ def seed_database(db: Session):
     # 10. Seed Notifications
     notifs_data = load_json("notifications.json")
     for idx, notif in enumerate(notifs_data):
+        notif_id = notif.get("id") or f"NOTF{str(idx+1).zfill(3)}"
         try:
-            notif_id = notif.get("id") or f"NOTF{str(idx+1).zfill(3)}"
             existing = db.execute(text("SELECT id FROM notifications WHERE id = :id"), {"id": notif_id}).first()
             if not existing:
                 db.execute(text("""
@@ -610,8 +610,8 @@ def seed_database(db: Session):
     # 11. Seed Activities
     activities_data = load_json("activity.json")
     for idx, act in enumerate(activities_data):
+        act_id = act.get("id") or f"ACT{str(idx+1).zfill(3)}"
         try:
-            act_id = act.get("id") or f"ACT{str(idx+1).zfill(3)}"
             existing = db.execute(text("SELECT id FROM activity_log WHERE id = :id"), {"id": act_id}).first()
             if not existing:
                 db.execute(text("""

@@ -1,3 +1,4 @@
+from typing import Optional, List, Any
 from sqlalchemy.orm import Session
 from sqlalchemy import text
 from datetime import datetime, timedelta
@@ -10,7 +11,7 @@ from services.auth_service import get_password_hash
 def log_activity(db: Session, user: str, activity: str, details: str, ip_address: str = "192.168.1.10"):
     now_str = datetime.now().strftime("%d %b %Y, %I:%M %p")
     # Generate unique ID
-    count = db.execute(text("SELECT COUNT(*) FROM activity_log")).scalar()
+    count = db.execute(text("SELECT COUNT(*) FROM activity_log")).scalar() or 0
     act_id = f"ACT{str(count + 1).zfill(3)}"
     
     query = text("""
@@ -27,9 +28,9 @@ def log_activity(db: Session, user: str, activity: str, details: str, ip_address
     })
     db.commit()
 
-def create_notification(db: Session, title: str, message: str, notif_type: str, employee_id: str = None):
+def create_notification(db: Session, title: str, message: str, notif_type: str, employee_id: Optional[str] = None):
     # Generate unique ID
-    count = db.execute(text("SELECT COUNT(*) FROM notifications")).scalar()
+    count = db.execute(text("SELECT COUNT(*) FROM notifications")).scalar() or 0
     notif_id = f"NT{str(count + 1).zfill(3)}"
     
     query = text("""
@@ -50,7 +51,7 @@ def create_notification(db: Session, title: str, message: str, notif_type: str, 
 
 # --- EMPLOYEE SERVICES ---
 
-def get_employees(db: Session, search: str = None, department: str = None, status: str = None):
+def get_employees(db: Session, search: Optional[str] = None, department: Optional[str] = None, status: Optional[str] = None):
     sql = "SELECT * FROM employees WHERE 1=1"
     params = {}
     if search:
@@ -181,7 +182,7 @@ def delete_category(db: Session, cat_id: str, operator_name: str):
 
 # --- ASSET SERVICES ---
 
-def get_assets(db: Session, search: str = None, type_filter: str = None, scope_filter: str = None):
+def get_assets(db: Session, search: Optional[str] = None, type_filter: Optional[str] = None, scope_filter: Optional[str] = None):
     sql = "SELECT * FROM assets WHERE type != 'Desktop'"
     params = {}
     if search:
@@ -252,7 +253,7 @@ def delete_asset(db: Session, asset_id: str, operator_name: str):
         return True
     return False
 
-def assign_assets_service(db: Session, emp_id: str, asset_ids: list, assign_date: str, remarks: str, operator_name: str):
+def assign_assets_service(db: Session, emp_id: str, asset_ids: list, assign_date: Optional[str] = None, remarks: Optional[str] = None, operator_name: str = "System"):
     employee = get_employee_by_id(db, emp_id)
     if not employee:
         return False
@@ -277,7 +278,7 @@ def assign_assets_service(db: Session, emp_id: str, asset_ids: list, assign_date
     create_notification(db, "Assets Assigned", f"{len(asset_ids)} assets successfully assigned to {employee.name}.", "info")
     return True
 
-def return_assets_service(db: Session, emp_id: str, asset_ids: list, return_date: str, return_condition: str, remarks: str, operator_name: str):
+def return_assets_service(db: Session, emp_id: str, asset_ids: list, return_date: Optional[str] = None, return_condition: Optional[str] = None, remarks: Optional[str] = None, operator_name: str = "System"):
     employee = get_employee_by_id(db, emp_id)
     if not employee:
         return False
@@ -297,7 +298,7 @@ def return_assets_service(db: Session, emp_id: str, asset_ids: list, return_date
         
         if next_status == "Under Repair":
             # Generate repair ticket
-            count = db.execute(text("SELECT COUNT(*) FROM repairs")).scalar()
+            count = db.execute(text("SELECT COUNT(*) FROM repairs")).scalar() or 0
             rep_id = f"REP{str(count + 1).zfill(5)}"
             req_date = datetime.now().strftime("%d %b %Y %I:%M %p")
             
@@ -343,7 +344,7 @@ def get_license_by_id(db: Session, lic_id: str):
     return db.execute(text("SELECT * FROM licenses WHERE id = :id"), {"id": lic_id}).first()
 
 def create_license(db: Session, lic_data: dict, operator_name: str):
-    count = db.execute(text("SELECT COUNT(*) FROM licenses")).scalar()
+    count = db.execute(text("SELECT COUNT(*) FROM licenses")).scalar() or 0
     lic_id = lic_data.get("id") or f"LIC{str(count + 1).zfill(3)}"
     
     query = text("""
@@ -394,7 +395,7 @@ def delete_license(db: Session, lic_id: str, operator_name: str):
 
 # --- REPAIR / TICKET SERVICES ---
 
-def get_repairs(db: Session, reported_by: str = None):
+def get_repairs(db: Session, reported_by: Optional[str] = None):
     sql = "SELECT * FROM repairs"
     params = {}
     if reported_by:
@@ -410,7 +411,7 @@ def get_repair_updates(db: Session, rep_id: str):
     return db.execute(text("SELECT * FROM repair_updates WHERE repair_id = :rep_id ORDER BY id"), {"rep_id": rep_id}).all()
 
 def create_repair(db: Session, rep_data: dict, operator_name: str):
-    count = db.execute(text("SELECT COUNT(*) FROM repairs")).scalar()
+    count = db.execute(text("SELECT COUNT(*) FROM repairs")).scalar() or 0
     n = count + 1
     while True:
         rep_id = f"TKT{str(n).zfill(4)}"
@@ -577,7 +578,7 @@ def get_announcements(db: Session):
     return db.execute(text("SELECT * FROM announcements ORDER BY id DESC")).all()
 
 def create_announcement(db: Session, ann_data: dict, operator_name: str):
-    count = db.execute(text("SELECT COUNT(*) FROM announcements")).scalar()
+    count = db.execute(text("SELECT COUNT(*) FROM announcements")).scalar() or 0
     ann_id = f"ANN{str(count + 1).zfill(3)}"
     now_date = datetime.now().strftime("%d %b %Y")
     
@@ -635,7 +636,7 @@ def update_guideline(db: Session, guide_data: dict, operator_name: str):
 
 # --- NOTIFICATION SERVICES ---
 
-def get_notifications(db: Session, emp_id: str = None):
+def get_notifications(db: Session, emp_id: Optional[str] = None):
     sql = "SELECT * FROM notifications WHERE employee_id IS NULL"
     params = {}
     if emp_id:
@@ -648,7 +649,7 @@ def mark_notification_read(db: Session, notif_id: str):
     db.execute(text("UPDATE notifications SET read = TRUE WHERE id = :id"), {"id": notif_id})
     db.commit()
 
-def mark_all_notifications_read(db: Session, emp_id: str = None):
+def mark_all_notifications_read(db: Session, emp_id: Optional[str] = None):
     sql = "UPDATE notifications SET read = TRUE WHERE read = FALSE"
     params = {}
     if emp_id:
@@ -660,7 +661,7 @@ def mark_all_notifications_read(db: Session, emp_id: str = None):
 
 # --- ACTIVITY LOG SERVICES ---
 
-def get_activities(db: Session, user_email: str = None, user_name: str = None):
+def get_activities(db: Session, user_email: Optional[str] = None, user_name: Optional[str] = None):
     sql = "SELECT * FROM activity_log"
     params = {}
     if user_email or user_name:
