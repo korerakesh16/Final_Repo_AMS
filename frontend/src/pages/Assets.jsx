@@ -45,6 +45,7 @@ const Assets = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [typeFilter, setTypeFilter] = useState('All');
   const [scopeFilter, setScopeFilter] = useState('All');
+  const [statusCardFilter, setStatusCardFilter] = useState('All');
   const [filterStartDate, setFilterStartDate] = useState('');
   const [filterEndDate, setFilterEndDate] = useState('');
   const [isImportModalOpen, setIsImportModalOpen] = useState(false);
@@ -217,7 +218,9 @@ const Assets = () => {
       }
     }
     
-    return matchesSearch && matchesType && matchesScope && matchesDate;
+    const matchesStatusCard = statusCardFilter === 'All' ? true : asset.status === statusCardFilter;
+    
+    return matchesSearch && matchesType && matchesScope && matchesStatusCard && matchesDate;
   });
 
   // Multi-select helpers
@@ -489,11 +492,51 @@ const Assets = () => {
 
       {/* 5 Compact Metric Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-        <MetricCard icon={Laptop} title="Total Assets" value={totalCount} color="blue" linkTo="/assets" />
-        <MetricCard icon={CheckCircle} title="Assigned Assets" value={assignedCount} color="green" linkTo="/assets" />
-        <MetricCard icon={TrendingUp} title="Available Assets" value={availableCount} color="orange" linkTo="/assets" />
-        <MetricCard icon={Wrench} title="Under Repair" value={repairCount} color="red" linkTo="/repairs" showLink />
-        <MetricCard icon={Trash2} title="Disposed Assets" value={disposedCount} color="purple" linkTo="/assets" />
+        <MetricCard 
+          icon={Laptop} 
+          title="Total Assets" 
+          value={totalCount} 
+          color="blue" 
+          showLink 
+          isActive={statusCardFilter === 'All'}
+          onClick={() => setStatusCardFilter('All')} 
+        />
+        <MetricCard 
+          icon={CheckCircle} 
+          title="Assigned Assets" 
+          value={assignedCount} 
+          color="green" 
+          showLink 
+          isActive={statusCardFilter === 'Assigned'}
+          onClick={() => setStatusCardFilter('Assigned')} 
+        />
+        <MetricCard 
+          icon={TrendingUp} 
+          title="Available Assets" 
+          value={availableCount} 
+          color="orange" 
+          showLink 
+          isActive={statusCardFilter === 'Available'}
+          onClick={() => setStatusCardFilter('Available')} 
+        />
+        <MetricCard 
+          icon={Wrench} 
+          title="Under Repair" 
+          value={repairCount} 
+          color="red" 
+          showLink 
+          isActive={statusCardFilter === 'Under Repair'}
+          onClick={() => setStatusCardFilter('Under Repair')} 
+        />
+        <MetricCard 
+          icon={Trash2} 
+          title="Disposed Assets" 
+          value={disposedCount} 
+          color="purple" 
+          showLink 
+          isActive={statusCardFilter === 'Disposed'}
+          onClick={() => setStatusCardFilter('Disposed')} 
+        />
       </div>
 
       {/* Assets inventory panel */}
@@ -502,8 +545,20 @@ const Assets = () => {
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3 border-b border-slate-100 pb-3">
           <div className="flex items-center gap-3">
             <h3 className="text-sm font-bold text-slate-800">
-              {scopeFilter === 'Assigned' ? 'Assigned Assets' : scopeFilter === 'Not Assigned' ? 'Not Assigned Assets' : 'All Assets Inventory'}
+              {statusCardFilter !== 'All'
+                ? `${statusCardFilter} Assets`
+                : scopeFilter === 'Assigned' ? 'Assigned Assets' : scopeFilter === 'Not Assigned' ? 'Not Assigned Assets' : 'All Assets Inventory'}
             </h3>
+            {statusCardFilter !== 'All' && (
+              <button
+                type="button"
+                onClick={() => setStatusCardFilter('All')}
+                className="flex items-center gap-1.5 text-[10px] font-extrabold text-blue-600 bg-blue-50 border border-blue-200/70 px-2.5 py-0.5 rounded-full hover:bg-blue-100 transition-all cursor-pointer shadow-2xs"
+              >
+                <span>Filter: {statusCardFilter}</span>
+                <X className="h-3 w-3 text-blue-500 hover:text-blue-700" />
+              </button>
+            )}
           </div>
 
           <div className="flex flex-wrap items-center gap-2.5 w-full lg:w-auto">

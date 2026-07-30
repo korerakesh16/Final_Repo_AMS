@@ -72,6 +72,7 @@ const Employees = () => {
   const [isAddModalOpen, setIsAddModalOpen] = useState(false);
   const [isEditModalOpen, setIsEditModalOpen] = useState(false);
   const [isViewModalOpen, setIsViewModalOpen] = useState(false);
+  const [isDeptModalOpen, setIsDeptModalOpen] = useState(false);
   const [selectedEmployee, setSelectedEmployee] = useState(null);
   const [employeePopup, setEmployeePopup] = useState({ isOpen: false, type: 'Active' });
   const [popupSearchTerm, setPopupSearchTerm] = useState('');
@@ -279,20 +280,76 @@ const Employees = () => {
 
       {/* Metric Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <MetricCard icon={Users} title="Total Employees" value={totalEmployeesCount} color="blue" linkTo="/employees" linkLabel="View all employees" />
-        <MetricCard icon={UserCheck} title="Active Employees" value={activeCount} color="green" onClick={() => { setPopupSearchTerm(''); setEmployeePopup({ isOpen: true, type: 'Active' }); }} />
-        <MetricCard icon={UserX} title="Inactive Employees" value={inactiveCount} color="orange" onClick={() => { setPopupSearchTerm(''); setEmployeePopup({ isOpen: true, type: 'Inactive' }); }} />
-        <MetricCard icon={FolderKey} title="Departments" value={departmentsCount} color="purple" linkTo="/employees" linkLabel="View all departments" />
+        <MetricCard 
+          icon={Users} 
+          title="Total Employees" 
+          value={totalEmployeesCount} 
+          color="blue" 
+          showLink 
+          isActive={statusFilter === 'All' && deptFilter === 'All'}
+          onClick={() => {
+            setStatusFilter('All');
+            setDeptFilter('All');
+            setCurrentPage(1);
+          }} 
+        />
+        <MetricCard 
+          icon={UserCheck} 
+          title="Active Employees" 
+          value={activeCount} 
+          color="green" 
+          showLink 
+          isActive={statusFilter === 'Active'}
+          onClick={() => { 
+            setStatusFilter('Active'); 
+            setCurrentPage(1);
+          }} 
+        />
+        <MetricCard 
+          icon={UserX} 
+          title="Inactive Employees" 
+          value={inactiveCount} 
+          color="orange" 
+          showLink 
+          isActive={statusFilter === 'Inactive'}
+          onClick={() => { 
+            setStatusFilter('Inactive'); 
+            setCurrentPage(1);
+          }} 
+        />
+        <MetricCard 
+          icon={FolderKey} 
+          title="Departments" 
+          value={departmentsCount} 
+          color="purple" 
+          showLink 
+          isActive={isDeptDropdownOpen || deptFilter !== 'All'}
+          onClick={() => {
+            setIsDeptDropdownOpen(prev => !prev);
+          }} 
+        />
       </div>
 
       {/* Employees Main Panel */}
       <div className="bg-white border border-slate-200 rounded-3xl p-6 shadow-sm space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
           <div className="flex items-center gap-3">
-            <h3 className="text-base font-bold text-slate-800">Employee List</h3>
+            <h3 className="text-base font-bold text-slate-800">
+              {deptFilter !== 'All' ? `${deptFilter} Department` : statusFilter !== 'All' ? `${statusFilter} Employees` : 'Employee List'}
+            </h3>
             <span className="text-[10px] font-extrabold bg-blue-50 text-blue-700 px-2.5 py-0.5 rounded-full border border-blue-100 whitespace-nowrap shrink-0 inline-flex items-center">
               {filteredEmployees.length} Total
             </span>
+            {(statusFilter !== 'All' || deptFilter !== 'All') && (
+              <button
+                type="button"
+                onClick={() => { setStatusFilter('All'); setDeptFilter('All'); setCurrentPage(1); }}
+                className="flex items-center gap-1 text-[10px] font-extrabold text-blue-600 bg-blue-50 border border-blue-200/70 px-2.5 py-0.5 rounded-full hover:bg-blue-100 transition-all cursor-pointer shadow-2xs"
+              >
+                <span>Clear Filter ({deptFilter !== 'All' ? deptFilter : statusFilter})</span>
+                <X className="h-3 w-3 text-blue-500 hover:text-blue-700" />
+              </button>
+            )}
           </div>
           <div className="flex flex-wrap items-center gap-3 w-full sm:w-auto">
             {/* Search */}
@@ -628,6 +685,103 @@ const Employees = () => {
             <div className="p-4 bg-slate-50 border-t border-slate-100 flex justify-end">
               <button
                 onClick={() => setEmployeePopup({ isOpen: false, type: 'Active' })}
+                className="py-2 px-5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 font-bold text-xs rounded-xl shadow-xs transition-all cursor-pointer"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Departments Overview Pop-up Modal */}
+      {isDeptModalOpen && (
+        <div className="fixed inset-0 bg-slate-900/40 backdrop-blur-xs z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-[2rem] border border-slate-100 shadow-2xl w-full max-w-3xl max-h-[85vh] flex flex-col overflow-hidden animate-fade-in relative">
+            {/* Header */}
+            <div className="p-6 border-b border-slate-100 flex items-center justify-between">
+              <div className="flex items-center gap-3">
+                <div className="p-2.5 rounded-xl bg-violet-50 text-violet-600">
+                  <FolderKey className="h-5 w-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-slate-800">Departments Overview</h3>
+                  <p className="text-xs text-slate-400 font-semibold mt-0.5">
+                    Department-wise employee headcount & staff distribution
+                  </p>
+                </div>
+              </div>
+              <button 
+                onClick={() => setIsDeptModalOpen(false)}
+                className="p-2 rounded-xl hover:bg-slate-100 text-slate-400 hover:text-slate-600 transition-all cursor-pointer shrink-0"
+              >
+                <X className="h-5 w-5" />
+              </button>
+            </div>
+
+            {/* Content Table */}
+            <div className="flex-1 overflow-y-auto p-6">
+              <div className="overflow-x-auto border border-slate-100 rounded-2xl bg-slate-50/50">
+                <table className="w-full text-left border-collapse text-xs">
+                  <thead>
+                    <tr className="bg-slate-100 text-slate-600 font-extrabold uppercase tracking-wider border-b border-slate-100 whitespace-nowrap">
+                      <th className="py-3 px-4">Department Name</th>
+                      <th className="py-3 px-4 text-center">Total Staff</th>
+                      <th className="py-3 px-4 text-center">Active</th>
+                      <th className="py-3 px-4 text-center">Inactive</th>
+                      <th className="py-3 px-4 text-right">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100">
+                    {Array.from(new Set(employees.map(e => e.department || 'General'))).concat(['IT', 'HR', 'Marketing', 'Sales', 'Finance'])
+                      .filter((v, i, a) => a.indexOf(v) === i)
+                      .map(dept => {
+                        const deptEmps = employees.filter(e => e.department === dept);
+                        const activeDept = deptEmps.filter(e => e.status === 'Active').length;
+                        const inactiveDept = deptEmps.filter(e => e.status === 'Inactive').length;
+                        return (
+                          <tr key={dept} className="hover:bg-white transition-all">
+                            <td className="py-3 px-4 font-bold text-slate-800 flex items-center gap-2">
+                              <Briefcase className="h-4 w-4 text-violet-500" />
+                              <span>{dept}</span>
+                            </td>
+                            <td className="py-3 px-4 text-center font-extrabold text-slate-700">{deptEmps.length}</td>
+                            <td className="py-3 px-4 text-center">
+                              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-50 text-emerald-600 border border-emerald-100">
+                                {activeDept}
+                              </span>
+                            </td>
+                            <td className="py-3 px-4 text-center">
+                              <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-rose-50 text-rose-600 border border-rose-100">
+                                {inactiveDept}
+                              </span>
+                            </td>
+                            <td className="py-3 px-4 text-right">
+                              <button
+                                type="button"
+                                onClick={() => {
+                                  setDeptFilter(dept);
+                                  setStatusFilter('All');
+                                  setCurrentPage(1);
+                                  setIsDeptModalOpen(false);
+                                }}
+                                className="px-3 py-1 bg-violet-600 hover:bg-violet-700 text-white font-bold text-[10px] rounded-lg transition-all cursor-pointer shadow-xs"
+                              >
+                                View Staff
+                              </button>
+                            </td>
+                          </tr>
+                        );
+                      })}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            {/* Footer */}
+            <div className="p-4 bg-slate-50 border-t border-slate-100 flex justify-end">
+              <button
+                onClick={() => setIsDeptModalOpen(false)}
                 className="py-2 px-5 bg-white border border-slate-200 hover:bg-slate-50 text-slate-700 font-bold text-xs rounded-xl shadow-xs transition-all cursor-pointer"
               >
                 Close

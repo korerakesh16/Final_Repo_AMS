@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, BackgroundTasks
 from sqlalchemy.orm import Session
 from typing import List
 from database.connection import get_db
@@ -6,7 +6,8 @@ from schemas import RepairCreate, RepairUpdateSchema, RepairOut
 from routers.auth import get_current_user, require_admin
 from services import (
     get_repairs, get_repair_by_id, get_repair_updates, create_repair,
-    add_repair_update_service, accept_repair_service, reject_repair_service
+    add_repair_update_service, accept_repair_service, reject_repair_service,
+    get_active_admins, get_employee_by_id, send_ticket_raised_email_to_admins
 )
 
 router = APIRouter(prefix="/api/repairs", tags=["repairs"])
@@ -70,6 +71,7 @@ def get_repair(id: str, current_user = Depends(get_current_user), db: Session = 
 @router.post("", response_model=RepairOut)
 def add_repair(
     payload: RepairCreate,
+    background_tasks: BackgroundTasks,
     current_user = Depends(get_current_user),
     db: Session = Depends(get_db)
 ):
@@ -80,6 +82,41 @@ def add_repair(
     r = create_repair(db, payload.model_dump(), current_user.name)
     if not r:
         raise HTTPException(status_code=400, detail="Failed to create repair ticket")
+
+    # Fetch all active admins for email dispatch
+    active_admins = get_active_admins(db)
+    admin_emails = [a.email for a in active_admins if hasattr(a, 'email') and a.email]
+
+    # Fetch employee data for details
+    emp_record = get_employee_by_id(db, r.reported_by)
+    emp_dict = None
+    if emp_record:
+        emp_dict = {
+            "id": emp_record.id,
+            "name": emp_record.name,
+            "department": emp_record.department,
+            "email": emp_record.email
+        }
+
+    ticket_dict = {
+        "id": r.id,
+        "asset_id": r.asset_id,
+        "reported_by": r.reported_by,
+        "issue": r.issue,
+        "description": r.description,
+        "priority": r.priority,
+        "request_date": r.request_date
+    }
+
+    # Dispatch email notification to all active admins in background task
+    if admin_emails:
+        background_tasks.add_task(
+            send_ticket_raised_email_to_admins,
+            admin_emails,
+            ticket_dict,
+            emp_dict
+        )
+
     updates = get_repair_updates(db, r.id)
     return {
         "id": r.id,
@@ -97,6 +134,7 @@ def add_repair(
         "updates": updates,
         "created_at": r.created_at
     }
+
 
 @router.post("/{id}/updates")
 def add_update(

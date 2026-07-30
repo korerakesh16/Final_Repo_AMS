@@ -29,9 +29,15 @@ def log_activity(db: Session, user: str, activity: str, details: str, ip_address
     db.commit()
 
 def create_notification(db: Session, title: str, message: str, notif_type: str, employee_id: Optional[str] = None):
-    # Generate unique ID
+    # Generate unique ID safely
     count = db.execute(text("SELECT COUNT(*) FROM notifications")).scalar() or 0
-    notif_id = f"NT{str(count + 1).zfill(3)}"
+    n = count + 1
+    while True:
+        notif_id = f"NT{str(n).zfill(3)}"
+        exists = db.execute(text("SELECT id FROM notifications WHERE id = :id"), {"id": notif_id}).first()
+        if not exists:
+            break
+        n += 1
     
     query = text("""
         INSERT INTO notifications (id, title, message, time, read, type, employee_id)
@@ -74,9 +80,17 @@ def get_employee_by_username_or_email(db: Session, login_name: str):
     sql = "SELECT * FROM employees WHERE email = :login OR username = :login OR name = :login OR id = :login"
     return db.execute(text(sql), {"login": login_name}).first()
 
+def get_active_admins(db: Session):
+    sql = "SELECT id, name, email FROM employees WHERE role = 'Admin' AND status = 'Active'"
+    return list(db.execute(text(sql)).mappings().all())
+
+
+
 def create_employee(db: Session, emp_data: dict, operator_name: str):
     emp_id = emp_data["id"].strip().upper()
-    hashed = get_password_hash(emp_data.get("password") or "employee123")
+    role = emp_data.get("role") or "Employee"
+    default_pass = "admin123" if role == "Admin" else "employee123"
+    hashed = get_password_hash(emp_data.get("password") or default_pass)
     
     query = text("""
         INSERT INTO employees (id, name, department, designation, email, username, phone, status, role, avatar, joining_date, location, password_hash)

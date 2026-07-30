@@ -140,10 +140,15 @@ export const AssetProvider = ({ children }) => {
     }
   };
 
-  // Sync data on token changes
+  // Sync data on token changes & set up background sync
   useEffect(() => {
     if (token) {
       loadAllData();
+      // Poll notifications & repairs periodically (every 15s) so admin dashboard populates in real time
+      const interval = setInterval(() => {
+        loadAllData();
+      }, 15000);
+      return () => clearInterval(interval);
     } else {
       setEmployees([]);
       setAssets([]);
@@ -156,6 +161,7 @@ export const AssetProvider = ({ children }) => {
       setActivity([]);
     }
   }, [token]);
+
 
   // Auth Operations
   const loginUser = async (username, password, role) => {

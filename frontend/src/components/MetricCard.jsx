@@ -9,7 +9,9 @@ const MetricCard = ({
   color = 'blue',
   subtext,
   linkTo,
+  onClick,
   showLink = false,
+  isActive = false,
 }) => {
   const navigate = useNavigate();
 
@@ -43,10 +45,20 @@ const MetricCard = ({
 
   const theme = colorMaps[color] || colorMaps.blue;
 
+  const handleClick = () => {
+    if (onClick) {
+      onClick();
+    } else if (linkTo) {
+      navigate(linkTo);
+    }
+  };
+
   return (
     <div
-      onClick={() => linkTo && navigate(linkTo)}
-      className="bg-white border border-slate-100 rounded-2xl p-5 flex flex-col cursor-pointer shadow-xs hover:shadow-md hover:scale-[1.03] transition-all duration-200 select-none"
+      onClick={handleClick}
+      className={`bg-white border rounded-2xl p-5 flex flex-col cursor-pointer shadow-xs hover:shadow-md hover:scale-[1.02] transition-all duration-200 select-none group ${
+        isActive ? 'ring-2 ring-blue-500/80 border-blue-300 bg-blue-50/20' : 'border-slate-100'
+      }`}
       title={`Click to view ${title}`}
     >
       {/* Top: icon + text */}
@@ -69,8 +81,8 @@ const MetricCard = ({
       {/* View Details footer */}
       {showLink && (
         <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between">
-          <span className="text-[11px] font-bold text-slate-400 hover:text-indigo-500 transition-colors">View Details</span>
-          <ChevronRight className="h-3.5 w-3.5 text-slate-300" />
+          <span className="text-[11px] font-bold text-slate-400 group-hover:text-blue-600 transition-colors">View Details</span>
+          <ChevronRight className="h-3.5 w-3.5 text-slate-300 group-hover:text-blue-500 group-hover:translate-x-0.5 transition-all" />
         </div>
       )}
     </div>
